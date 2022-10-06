@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:54
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Myotis_lucifugus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Myotis_lucifugus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Myotis_lucifugus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Myotis_lucifugus     from: 1   to: 17038
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                         
+  15487   15978       +     382     82      6     97.2 ctatgtataatcgtacattaaattatcttaccccatggatattaagcaagtacatacttatattaatattacataatacata
+  16529   16774       +     236      6     41     99.2 tacgca                                                                            
+   1030    1134       +      20     35      3     76.2 gttgacactaagtatagctcaaaataaatcaccta                                               
+
+#---------------------------------------
+#---------------------------------------

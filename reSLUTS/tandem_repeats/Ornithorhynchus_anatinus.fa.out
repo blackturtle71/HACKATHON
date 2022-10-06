@@ -1,0 +1,36 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:09:58
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Ornithorhynchus_anatinus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Ornithorhynchus_anatinus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Ornithorhynchus_anatinus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Ornithorhynchus_anatinus     from: 1   to: 17019
+# HitCount: 6
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus               
+  16445   16784       +     287     17     20     94.7 attttgaggaaaaaact       
+  16328   16381       +      37      9      6     92.6 tttgaaaaa               
+  16847   16926       +      28     10      8     73.8 tttttttgtt              
+  16383   16430       +      24      8      6     83.3 agggaaat                
+  16180   16323       +      23      9     16     61.1 ttttttatt               
+  13974   14141       +      20     24      7     63.1 tcctaaaccaacataaatcataaa
+
+#---------------------------------------
+#---------------------------------------

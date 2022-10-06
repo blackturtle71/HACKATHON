@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:16:46
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Dorcatragus_megalotis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Dorcatragus_megalotis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Dorcatragus_megalotis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Dorcatragus_megalotis     from: 1   to: 16378
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                           
+   3236    3415       +      22     36      5     66.1 agaactagtatcattattttttacagcagaagaagc
+
+#---------------------------------------
+#---------------------------------------

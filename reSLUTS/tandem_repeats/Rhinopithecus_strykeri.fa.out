@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:11:21
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Rhinopithecus_strykeri.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Rhinopithecus_strykeri.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Rhinopithecus_strykeri.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Rhinopithecus_strykeri     from: 1   to: 16550
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus      
+   8082    8156       +      20     15      5     73.3 attataattcaacta
+
+#---------------------------------------
+#---------------------------------------

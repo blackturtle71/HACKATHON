@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 12:59:07
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Rhinopithecus_bieti.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Rhinopithecus_bieti.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Rhinopithecus_bieti.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Rhinopithecus_bieti     from: 1   to: 16551
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus      
+   8074    8148       +      26     15      5     77.3 aaccaactaattata
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:01:24
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Plecotus_auritus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Plecotus_auritus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Plecotus_auritus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Plecotus_auritus     from: 1   to: 16900
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  16352   16633       +     276      6     47    100.0 catacg                                                                           
+  15591   15833       +     110     81      3     89.3 attatactccacatgaatatcaagcaagtatatgaaaatattaataccacataatacattatatgtataactgtacataac
+
+#---------------------------------------
+#---------------------------------------

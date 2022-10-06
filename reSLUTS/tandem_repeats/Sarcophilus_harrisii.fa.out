@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:03:44
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Sarcophilus_harrisii.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Sarcophilus_harrisii.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Sarcophilus_harrisii.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Sarcophilus_harrisii     from: 1   to: 17117
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                 
+      1     160       +     126      2     80     90.0 tg                                                        
+  16037   16326       +      22     58      5     63.8 tcatatataaataaattcatttttaaattttttttcaaataaatattaaataatataa
+
+#---------------------------------------
+#---------------------------------------

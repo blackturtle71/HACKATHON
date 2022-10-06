@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:17:27
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Balaenoptera_omurai.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Balaenoptera_omurai.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Balaenoptera_omurai.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Balaenoptera_omurai     from: 1   to: 16404
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  13618   13860       +      26     81      3     72.0 aacttccccactaataaaagcagaacccccagtaacaagcactacccaaactcccaaactatacaaccctaatacaacttt
+  13908   14047       +      22     10     14     61.4 aacaaccaaa                                                                       
+  10385   10549       +      22     33      5     66.7 tcccttctcatcataatactaatagtaacccaa                                                
+
+#---------------------------------------
+#---------------------------------------

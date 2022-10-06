@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:08:51
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Caracal_caracal.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Caracal_caracal.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Caracal_caracal.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Caracal_caracal     from: 1   to: 16859
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  16323   16642       +     170     80      4     89.1 ccatgaatatcaagcatgtacagtagtctatatatattacatcaggcatactatgtatatcgtgcattaatcgctagtcc
+    261     344       +      70     14      6    100.0 cacgtatacacgta                                                                  
+   3528    3662       +      20     45      3     74.1 actcctacccctcacattcgctttaaccatattcatcacagtacc                                   
+
+#---------------------------------------
+#---------------------------------------

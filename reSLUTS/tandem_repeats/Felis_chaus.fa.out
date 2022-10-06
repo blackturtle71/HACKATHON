@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:05:02
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Felis_chaus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Felis_chaus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Felis_chaus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Felis_chaus     from: 1   to: 16653
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus     
+    255     380       +      62     14      9     80.2 cacgtacacgtaca
+
+#---------------------------------------
+#---------------------------------------

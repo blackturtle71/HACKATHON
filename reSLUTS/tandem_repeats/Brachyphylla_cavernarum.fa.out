@@ -1,0 +1,34 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:08
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Brachyphylla_cavernarum.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Brachyphylla_cavernarum.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Brachyphylla_cavernarum.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Brachyphylla_cavernarum     from: 1   to: 16785
+# HitCount: 4
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                           
+  16228   16479       +     238     12     21     99.6 acacccacgtgt                        
+   4480    4839       +      24     36     10     58.3 atccataatcatcctaatcatcataacaacaataat
+  13195   13302       +      23     27      4     73.1 ctaataaccctagccctaaaattaaaa         
+  15447   15590       +      20     36      4     69.4 atttaattcatgaatatatattattacacaatatta
+
+#---------------------------------------
+#---------------------------------------

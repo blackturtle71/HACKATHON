@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:24
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Nanger_soemmerringii.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Nanger_soemmerringii.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Nanger_soemmerringii.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Nanger_soemmerringii     from: 1   to: 16379
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                           
+  16147   16221       +      22     25      3     81.3 aatggtaagcatggatattatagtc           
+   3241    3420       +      22     36      5     66.1 caccagaactagtatcattattctttacagcagaag
+
+#---------------------------------------
+#---------------------------------------

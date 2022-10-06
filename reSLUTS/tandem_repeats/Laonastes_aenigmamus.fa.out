@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:05:43
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Laonastes_aenigmamus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Laonastes_aenigmamus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Laonastes_aenigmamus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Laonastes_aenigmamus     from: 1   to: 16364
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+   4881    4934       +      21      9      6     77.8 acccataac
+
+#---------------------------------------
+#---------------------------------------

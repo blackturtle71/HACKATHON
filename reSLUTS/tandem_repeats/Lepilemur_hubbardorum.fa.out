@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:06:43
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Lepilemur_hubbardorum.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Lepilemur_hubbardorum.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Lepilemur_hubbardorum.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Lepilemur_hubbardorum     from: 1   to: 16854
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+  16291   16490       +     186      8     25     98.5 cgtataca 
+
+#---------------------------------------
+#---------------------------------------

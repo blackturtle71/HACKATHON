@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:56
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Pseudois_nayaur.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Pseudois_nayaur.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Pseudois_nayaur.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Pseudois_nayaur     from: 1   to: 16737
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                  
+  15842   16066       +     122     75      3     93.8 cataacattaatgtaataaagacataatatgtatatattacattacatgattttccccatgcatataagcatgta
+   4054    4221       +      30     42      4     71.4 caacccaacagcctcaatactattaacaatagctatcattat                                 
+
+#---------------------------------------
+#---------------------------------------

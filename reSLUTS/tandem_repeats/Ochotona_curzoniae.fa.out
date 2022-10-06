@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:11:03
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Ochotona_curzoniae.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Ochotona_curzoniae.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Ochotona_curzoniae.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Ochotona_curzoniae     from: 1   to: 17131
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                       
+  16277   16540       +     232     24     11     98.5 actcacccacgtgtacgcacacgc                        
+  13144   13287       +      24     48      3     75.0 ggcttcctcctttcgataaaaatcaaacccctcacactcaccctcata
+
+#---------------------------------------
+#---------------------------------------

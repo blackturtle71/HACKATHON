@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:16:37
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Crocidura_orientalis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Crocidura_orientalis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Crocidura_orientalis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Crocidura_orientalis     from: 1   to: 15452
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

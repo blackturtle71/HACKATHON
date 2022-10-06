@@ -1,0 +1,34 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:02:08
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Erinaceus_europaeus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Erinaceus_europaeus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Erinaceus_europaeus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Erinaceus_europaeus     from: 1   to: 17447
+# HitCount: 4
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                        
+  16353   16670       +     288      6     53     96.2 tacgca                                           
+  16984   17223       +     194      8     30     92.1 aatatagt                                         
+  17232   17427       +      23     49      4     68.4 tttaaatattaaaaatataacaattttatttatatttcttattataatt
+   4502    4585       +      21      3     28     64.3 tat                                              
+
+#---------------------------------------
+#---------------------------------------

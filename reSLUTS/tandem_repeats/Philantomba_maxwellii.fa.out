@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:09:40
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Philantomba_maxwellii.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Philantomba_maxwellii.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Philantomba_maxwellii.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Philantomba_maxwellii     from: 1   to: 16440
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                  
+   3902    4036       +      20     27      5     67.4 ttataatcacaattatcttcgtaataa
+
+#---------------------------------------
+#---------------------------------------

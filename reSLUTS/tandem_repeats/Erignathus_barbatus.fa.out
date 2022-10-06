@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:11:40
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Erignathus_barbatus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Erignathus_barbatus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Erignathus_barbatus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Erignathus_barbatus     from: 1   to: 16705
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                              
+  16109   16396       +     204     24     12     89.6 acacacacgtgcgtacacacacgt               
+  13885   14079       +      26     39      5     66.7 caacactaaaaacaaaaatagcccctaaaaaaaatacaa
+
+#---------------------------------------
+#---------------------------------------

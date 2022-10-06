@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:09:05
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Tapirus_indicus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Tapirus_indicus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Tapirus_indicus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Tapirus_indicus     from: 1   to: 16717
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                 
+  16134   16437       +     280     16     19     98.7 catacacacgtatacg                          
+  13893   14087       +      22     39      5     65.6 aaacactaaacacaaacatagccctcaaaaaaaacacaa   
+   4119    4244       +      20     42      3     74.6 ccacagcctccattctaataacaatagcaataatcatcaacc
+
+#---------------------------------------
+#---------------------------------------

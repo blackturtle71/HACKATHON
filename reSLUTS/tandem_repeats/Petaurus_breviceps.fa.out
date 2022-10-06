@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:01:21
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Petaurus_breviceps.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Petaurus_breviceps.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Petaurus_breviceps.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Petaurus_breviceps     from: 1   to: 16103
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                      
+  15733   16007       +     240     25     11     98.2 tagacattatattatttattttaca                                      
+  16019   16090       +      28     24      3     86.1 attatttattttacatagacttat                                       
+  13892   14143       +      23     63      4     67.1 tataaataaaaatcaccttcatcccaccagcatgaactctaattattaccaatcttaaaaaaa
+
+#---------------------------------------
+#---------------------------------------

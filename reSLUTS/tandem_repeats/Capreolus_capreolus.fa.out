@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:03:27
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Capreolus_capreolus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Capreolus_capreolus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Capreolus_capreolus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Capreolus_capreolus     from: 1   to: 16358
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                 
+  15661   15738       +      22     26      3     80.8 cattaatagtacatagtgcattaagt
+
+#---------------------------------------
+#---------------------------------------

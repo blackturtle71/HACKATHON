@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:00:26
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Rhinopithecus_brelichi.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Rhinopithecus_brelichi.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Rhinopithecus_brelichi.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Rhinopithecus_brelichi     from: 1   to: 16553
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus      
+   8075    8149       +      22     15      5     74.7 aaacaactaattata
+
+#---------------------------------------
+#---------------------------------------

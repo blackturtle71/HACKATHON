@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:00:35
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Cavia_porcellus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Cavia_porcellus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Cavia_porcellus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Cavia_porcellus     from: 1   to: 16801
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus       
+  16258   16561       +     288     16     19    100.0 tgtacgcacagacgtg
+
+#---------------------------------------
+#---------------------------------------

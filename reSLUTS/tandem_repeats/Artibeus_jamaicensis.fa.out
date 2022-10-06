@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:00:51
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Artibeus_jamaicensis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Artibeus_jamaicensis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Artibeus_jamaicensis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Artibeus_jamaicensis     from: 1   to: 16651
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus     
+  16165   16360       +     144     14     14     90.3 gcacacccacaggt
+
+#---------------------------------------
+#---------------------------------------

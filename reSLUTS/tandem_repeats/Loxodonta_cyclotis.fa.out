@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:27
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Loxodonta_cyclotis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Loxodonta_cyclotis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Loxodonta_cyclotis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Loxodonta_cyclotis     from: 1   to: 16109
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus            
+   4099    4224       +      23     21      6     67.5 atagcatcaataataaaacta
+
+#---------------------------------------
+#---------------------------------------

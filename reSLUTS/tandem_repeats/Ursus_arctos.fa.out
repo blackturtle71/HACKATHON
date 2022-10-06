@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:07:44
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Ursus_arctos.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Ursus_arctos.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Ursus_arctos.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Ursus_arctos     from: 1   to: 17020
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                     
+    492     801       +     288     10     31     98.1 tacgcacgtg                    
+    221     490       +     220     30      9     96.3 acgcacgtgtacgcacgtgtacgcacgtgt
+
+#---------------------------------------
+#---------------------------------------

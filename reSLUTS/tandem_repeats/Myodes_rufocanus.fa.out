@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:16
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Myodes_rufocanus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Myodes_rufocanus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Myodes_rufocanus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Myodes_rufocanus     from: 1   to: 16487
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                     
+  15520   15591       +      28     24      3     86.1 acataaatttatatcgtacatagt      
+  13842   13931       +      20     30      3     77.8 ataaccaaaaaacaccatcacccctaaaaa
+
+#---------------------------------------
+#---------------------------------------

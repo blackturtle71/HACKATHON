@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:30
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Nectogale_elegans.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Nectogale_elegans.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Nectogale_elegans.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Nectogale_elegans     from: 1   to: 17460
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  15765   16324       +     420     80      7     94.6 aatgtacattatattatattcctcatgcatataagcaagtacattttattaattatcttacatttatacattatatgtat
+  16897   17196       +     284     12     25     99.3 tacacgtacgct                                                                    
+
+#---------------------------------------
+#---------------------------------------

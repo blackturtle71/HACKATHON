@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:17:55
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Sus_verrucosus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Sus_verrucosus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Sus_verrucosus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Sus_verrucosus     from: 1   to: 16479
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                 
+    197     274       +      24     26      3     82.1 atattacatagtacatattattatta
+   5658    5819       +      21      9     18     59.3 aacaataat                 
+
+#---------------------------------------
+#---------------------------------------

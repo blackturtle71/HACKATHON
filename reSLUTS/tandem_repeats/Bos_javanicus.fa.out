@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:14:08
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Bos_javanicus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Bos_javanicus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Bos_javanicus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Bos_javanicus     from: 1   to: 16339
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                 
+   4461    4586       +      20     42      3     74.6 agcctcaatactaataacgatagccctagttattaacctaat
+
+#---------------------------------------
+#---------------------------------------

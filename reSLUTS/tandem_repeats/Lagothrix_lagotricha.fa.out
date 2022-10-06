@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:11:10
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Lagothrix_lagotricha.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Lagothrix_lagotricha.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Lagothrix_lagotricha.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Lagothrix_lagotricha     from: 1   to: 16595
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus               
+  11723   11794       +      20     24      3     80.6 agtaacaatgctaattaccctaat
+
+#---------------------------------------
+#---------------------------------------

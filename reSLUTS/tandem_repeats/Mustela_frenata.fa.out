@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:02:40
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Mustela_frenata.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Mustela_frenata.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Mustela_frenata.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Mustela_frenata     from: 1   to: 16543
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+  16007   16254       +     206      8     31     93.1 acgtacac 
+
+#---------------------------------------
+#---------------------------------------

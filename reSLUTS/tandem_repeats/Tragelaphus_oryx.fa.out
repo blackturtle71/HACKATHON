@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:03:40
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Tragelaphus_oryx.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Tragelaphus_oryx.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Tragelaphus_oryx.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Tragelaphus_oryx     from: 1   to: 16397
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                               
+  15652   15731       +      28     40      2     92.5 atgtaataatgacataatatgtatatagtacattatatta
+  13872   14041       +      20     10     17     58.8 acccaaaaaa                              
+  15761   15812       +      20     26      2     94.2 ccattattaatcgtacatagcacatt              
+
+#---------------------------------------
+#---------------------------------------

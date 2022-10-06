@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:01:02
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Myotis_macrodactylus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Myotis_macrodactylus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Myotis_macrodactylus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Myotis_macrodactylus     from: 1   to: 17562
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  15628   16356       +     568     81      9     94.5 tattaaacaagtacatactaacattaatattacataatacattatatgtataattgtacattaaattattttccacatgaa
+  16912   17277       +     356      6     61     99.5 catacg                                                                           
+
+#---------------------------------------
+#---------------------------------------

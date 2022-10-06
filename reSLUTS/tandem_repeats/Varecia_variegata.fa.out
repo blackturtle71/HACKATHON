@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 12:59:39
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Varecia_variegata.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Varecia_variegata.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Varecia_variegata.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Varecia_variegata     from: 1   to: 17051
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+  16324   16643       +     184      8     40     80.0 tacacgca 
+   4520    4672       +      20      9     17     59.5 cataataac
+
+#---------------------------------------
+#---------------------------------------

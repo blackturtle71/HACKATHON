@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:33
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Neomys_fodiens.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Neomys_fodiens.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Neomys_fodiens.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Neomys_fodiens     from: 1   to: 17260
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  16514   16903       +     352     10     39     96.4 catacgtaca                                                                      
+  15568   15967       +     268     80      5     93.5 ttatattccccatgcatataagcaagtacataaccttattaattagacattaatacattctatgtatatcgtacattcat
+  17054   17193       +     110     28      5     99.3 acttatttatagatatttaattttaatt                                                    
+
+#---------------------------------------
+#---------------------------------------

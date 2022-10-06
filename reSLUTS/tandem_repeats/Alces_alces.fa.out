@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:04
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Alces_alces.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Alces_alces.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Alces_alces.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Alces_alces     from: 1   to: 16417
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                  
+  15606   15755       +      75     75      2    100.0 agtacataacattaatgtatcaagacatactatgtataatagtacattacattatttaccccatgcttataagca
+
+#---------------------------------------
+#---------------------------------------

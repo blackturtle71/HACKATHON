@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:01:04
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Leopardus_guigna.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Leopardus_guigna.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Leopardus_guigna.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Leopardus_guigna     from: 1   to: 16773
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                               
+    440     527       +      76      8     11     97.7 tatacacg                                                                                
+    135     310       +      58     88      2     91.5 tatggtcggacttactctctatgcggagcttccacacacacaacagtcgaggtgttattcagtcaatggtcacaggacatatacctaa
+   3696    3830       +      28     45      3     77.0 ctccaaccccttacactcgccataaccatatttaccacagtaccc                                           
+
+#---------------------------------------
+#---------------------------------------

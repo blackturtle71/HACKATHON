@@ -1,0 +1,35 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:01:08
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Echinosorex_gymnura.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Echinosorex_gymnura.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Echinosorex_gymnura.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Echinosorex_gymnura     from: 1   to: 17088
+# HitCount: 5
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                   
+  16503   16874       +     366      6     62    100.0 cacgta                                                                      
+  15632   15935       +     188     76      4     93.4 tttagtacatgcttataagcatgtatatattatgtaattatataattacataatatgtataatcaacattaattaa
+   4474    4641       +      26     42      4     70.2 tttaaaactaacaatttttaatattactacaacaattataat                                  
+  10454   10597       +      24     48      3     75.0 attataaattatatttaaaacaacattattcccaacactaataattat                            
+   1475    1528       +      22      6      9     75.9 aattta                                                                      
+
+#---------------------------------------
+#---------------------------------------

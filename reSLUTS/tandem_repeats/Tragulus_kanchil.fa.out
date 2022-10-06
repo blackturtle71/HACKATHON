@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:08:12
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Tragulus_kanchil.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Tragulus_kanchil.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Tragulus_kanchil.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Tragulus_kanchil     from: 1   to: 16333
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                 
+  15595   15672       +      20     26      3     79.5 tacattatttatagtacatagtacat
+
+#---------------------------------------
+#---------------------------------------

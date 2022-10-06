@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:15:36
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Ziphius_cavirostris.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Ziphius_cavirostris.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Ziphius_cavirostris.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Ziphius_cavirostris     from: 1   to: 16349
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  10406   10537       +      23     33      4     71.2 ctaataacacgacaatcactttttatcataata                                                
+  13619   13861       +      22     81      3     71.2 ataacctcctcactaacaaaaacagacaaccccgttacaaataccactcaaacccctaaacgatataacccaaacacaacc
+   4541    4657       +      20     39      3     75.2 accctattaatattattaatctaaaatacaaccaccatc                                          
+
+#---------------------------------------
+#---------------------------------------

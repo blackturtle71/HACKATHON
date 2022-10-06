@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:31
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Lepus_timidus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Lepus_timidus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Lepus_timidus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Lepus_timidus     from: 1   to: 17755
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus 
+  16208   16527       +     270     10     32     93.8 tacncncacg
+
+#---------------------------------------
+#---------------------------------------

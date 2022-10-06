@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:07:45
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Tamandua_mexicana.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Tamandua_mexicana.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Tamandua_mexicana.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Tamandua_mexicana     from: 1   to: 16385
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                                        
+  16124   16317       +      27     97      2     82.0 actttttagtatagaaaaagcctatgtcctaacaacaggacaaaaagctgacactttttcaatttattggtcgaataaaatttttgccaatactgac
+  13873   13956       +      21     21      4     75.0 ccaaaacctaaaaacaaccca                                                                            
+  10431   10628       +      21     33      6     63.6 aattgcacgaaaattactcctaatctaaatcct                                                                
+
+#---------------------------------------
+#---------------------------------------

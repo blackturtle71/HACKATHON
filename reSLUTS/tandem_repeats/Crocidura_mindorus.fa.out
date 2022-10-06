@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:13:51
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Crocidura_mindorus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Crocidura_mindorus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Crocidura_mindorus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Crocidura_mindorus     from: 1   to: 15458
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus         
+   1121    1210       +      20     18      5     71.1 ataaaaaaaaaatttaaa
+
+#---------------------------------------
+#---------------------------------------

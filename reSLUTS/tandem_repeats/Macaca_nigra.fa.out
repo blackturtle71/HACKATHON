@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:06:35
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Macaca_nigra.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Macaca_nigra.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Macaca_nigra.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Macaca_nigra     from: 1   to: 16564
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus         
+   2949    3038       +      20     18      5     71.1 cgccctactcctattcac
+
+#---------------------------------------
+#---------------------------------------

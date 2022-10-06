@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:15:45
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Piliocolobus_badius.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Piliocolobus_badius.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Piliocolobus_badius.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Piliocolobus_badius     from: 1   to: 16595
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus      
+   8079    8153       +      20     15      5     73.3 taattactattcaaa
+
+#---------------------------------------
+#---------------------------------------

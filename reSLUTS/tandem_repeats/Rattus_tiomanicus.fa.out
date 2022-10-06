@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:43
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Rattus_tiomanicus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Rattus_tiomanicus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Rattus_tiomanicus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Rattus_tiomanicus     from: 1   to: 16309
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+    928     957       +      20      2     15     86.7 ta       
+
+#---------------------------------------
+#---------------------------------------

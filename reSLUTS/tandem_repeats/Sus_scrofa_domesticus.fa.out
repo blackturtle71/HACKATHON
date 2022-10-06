@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:05:19
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Sus_scrofa_domesticus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Sus_scrofa_domesticus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Sus_scrofa_domesticus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Sus_scrofa_domesticus     from: 1   to: 16770
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                              
+  16140   16439       +     286     10     30     99.3 cgtacacgtg                             
+  15632   15709       +      24     26      3     82.1 atattacatagtacatattattatta             
+   4497    4652       +      21     39      4     69.2 acaaaataaccataacaatattcctactactaatataca
+
+#---------------------------------------
+#---------------------------------------

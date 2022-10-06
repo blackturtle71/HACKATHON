@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:07:31
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Pipistrellus_abramus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Pipistrellus_abramus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Pipistrellus_abramus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Pipistrellus_abramus     from: 1   to: 16976
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  15485   15970       +     357     81      6     95.1 ataatagtacattaaattatcacccacatgaatattaagcaagtccattaatacattaatagtacataatacattctatgc
+  16548   16709       +     156      6     27    100.0 tacgca                                                                           
+
+#---------------------------------------
+#---------------------------------------

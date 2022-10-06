@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:06:52
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Hydrurga_leptonyx.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Hydrurga_leptonyx.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Hydrurga_leptonyx.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Hydrurga_leptonyx     from: 1   to: 16602
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                        
+  16115   16298       +     102      2     92     78.3 ac                               
+  10359   10589       +      22     33      7     61.9 ccacaaaattactactaaccataatactaatcg
+
+#---------------------------------------
+#---------------------------------------

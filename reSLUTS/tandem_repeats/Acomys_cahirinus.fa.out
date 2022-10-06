@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:26
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Acomys_cahirinus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Acomys_cahirinus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Acomys_cahirinus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Acomys_cahirinus     from: 1   to: 16217
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

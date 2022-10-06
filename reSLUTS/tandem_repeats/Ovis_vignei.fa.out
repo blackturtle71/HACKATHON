@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:15:34
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Ovis_vignei.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Ovis_vignei.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Ovis_vignei.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Ovis_vignei     from: 1   to: 16697
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                   
+  15688   16067       +     262     76      5     94.5 taaagtacattaaatgatttaccccatgcatataagcatgtacattagtattaatgtaatatagacattatatgta
+   4064    4231       +      24     42      4     69.6 agcctcaatactattaacaatagccatcctcattaaactaat                                  
+   3253    3432       +      20     36      5     65.6 agaactagtatcattattcttcacagcagaagatgc                                        
+
+#---------------------------------------
+#---------------------------------------

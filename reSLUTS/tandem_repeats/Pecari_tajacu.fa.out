@@ -1,0 +1,34 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:00
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Pecari_tajacu.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Pecari_tajacu.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Pecari_tajacu.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Pecari_tajacu     from: 1   to: 16839
+# HitCount: 4
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  16214   16513       +     282     10     30     98.7 acacgtgcgt                                                                       
+   4430    4672       +      28     81      3     72.4 aaaactcatatgatacaaaacaataacactcacaagcttcatactaaccatcctactctccatcaccacaataccaccact
+  10369   10665       +      22     33      9     59.3 cacaaatactaatcgcaccacaactactcctag                                                
+  13586   13828       +      22     81      3     71.2 atcacttcctccccaataaacacagaataaccagtaacaaaaaccatccaagaaccaaaactatataaaccaaaaacaacc
+
+#---------------------------------------
+#---------------------------------------

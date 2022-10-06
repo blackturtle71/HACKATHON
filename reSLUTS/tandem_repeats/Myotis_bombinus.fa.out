@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:07
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Myotis_bombinus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Myotis_bombinus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Myotis_bombinus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Myotis_bombinus     from: 1   to: 17128
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  15523   16089       +     440     81      7     95.9 taaacaagtacattaaaacattaatattacataatacatattatgtataattgtacattaaattacttaccacatgaatat
+  16598   16855       +     248      6     43     99.2 gcatac                                                                           
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:03:03
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Equus_zebra_hartmannae.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Equus_zebra_hartmannae.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Equus_zebra_hartmannae.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Equus_zebra_hartmannae     from: 1   to: 16409
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:16:01
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Cervus_nippon_hortulorum.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Cervus_nippon_hortulorum.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Cervus_nippon_hortulorum.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Cervus_nippon_hortulorum     from: 1   to: 16434
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                              
+  15599   15754       +      31     39      4     72.4 tagtacataaaattatttgatagaagctaatatgcataa
+   1123    1262       +      21     35      4     70.0 taaacaataaaagtaaagtacaaaaaagcaatgat    
+
+#---------------------------------------
+#---------------------------------------

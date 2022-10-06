@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:05:03
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Bradypus_pygmaeus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Bradypus_pygmaeus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Bradypus_pygmaeus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Bradypus_pygmaeus     from: 1   to: 16799
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                                    
+  16344   16487       +     110     12     12     92.4 atacgtgtacgt                                                                                 
+  15547   15732       +      93     93      2    100.0 ctgaccacccagaccggtcctatgctttatcgtgcatacatttatattccccatgcatatcatctatatactaactgttgttacgttacaata
+
+#---------------------------------------
+#---------------------------------------

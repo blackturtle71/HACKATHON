@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:00
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Mirounga_leonina.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Mirounga_leonina.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Mirounga_leonina.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Mirounga_leonina     from: 1   to: 16970
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+  16098   16669       +     466      4    143     91.1 acgt     
+
+#---------------------------------------
+#---------------------------------------

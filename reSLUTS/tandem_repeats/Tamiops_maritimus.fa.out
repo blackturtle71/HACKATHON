@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:14:24
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Tamiops_maritimus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Tamiops_maritimus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Tamiops_maritimus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Tamiops_maritimus     from: 1   to: 16523
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

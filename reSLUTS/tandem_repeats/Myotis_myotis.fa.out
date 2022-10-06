@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:01:13
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Myotis_myotis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Myotis_myotis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Myotis_myotis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Myotis_myotis     from: 1   to: 17213
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                         
+  15563   16136       +     332     82      7     86.1 caagtacattaggaatattaatattacataatacatactatgtataattgtacattaaattatttaccacatgaatattaaa
+  16659   16940       +     276      6     47    100.0 tacgca                                                                            
+
+#---------------------------------------
+#---------------------------------------

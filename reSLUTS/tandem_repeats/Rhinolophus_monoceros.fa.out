@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:17:08
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Rhinolophus_monoceros.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Rhinolophus_monoceros.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Rhinolophus_monoceros.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Rhinolophus_monoceros     from: 1   to: 16851
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus  
+  16296   16515       +     177     11     20     92.7 tacacacagcg
+  11753   11824       +      21      9      8     70.8 cctaataat  
+
+#---------------------------------------
+#---------------------------------------

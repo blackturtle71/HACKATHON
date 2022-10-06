@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:11:04
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Octodon_degus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Octodon_degus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Octodon_degus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Octodon_degus     from: 1   to: 16798
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus   
+  16203   16502       +     184     12     25     82.7 acacacacgtat
+  14055   14117       +      22      3     21     69.8 taa         
+
+#---------------------------------------
+#---------------------------------------

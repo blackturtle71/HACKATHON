@@ -1,0 +1,34 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:07:12
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Tolypeutes_matacus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Tolypeutes_matacus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Tolypeutes_matacus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Tolypeutes_matacus     from: 1   to: 16980
+# HitCount: 4
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  16597   16916       +     256     64      5    100.0 ttttccactgtaaaagtgaggtaaaaatagtataaattattttacagatatttttttaataata                
+  16217   16312       +      88      6     16     99.0 atacgc                                                                          
+  15518   15677       +      34     80      2     85.6 tacatactatgtataatcgtacatacatctacttaccccatgcatatcatataaggcattgtgtcagtaaaacgtcgtac
+   4532    4681       +      25     15     10     63.3 tcaataacaacccta                                                                 
+
+#---------------------------------------
+#---------------------------------------

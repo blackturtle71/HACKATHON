@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:00:52
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Nannospalax_golani.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Nannospalax_golani.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Nannospalax_golani.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Nannospalax_golani     from: 1   to: 16402
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:03:59
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Profelis_aurata.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Profelis_aurata.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Profelis_aurata.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Profelis_aurata     from: 1   to: 16826
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+    253     476       +     128      8     28     80.4 cgtacaca                                                                        
+  16372   16611       +     116     80      3     90.8 ccatgaatattaagcatgtacagtagtttatatatattacataagacatactatgtatatcgtgcattaattgctagtcc
+   3644    3778       +      26     45      3     76.3 actcctacctctcacattcgccataaccatattaatcacagtacc                                   
+
+#---------------------------------------
+#---------------------------------------

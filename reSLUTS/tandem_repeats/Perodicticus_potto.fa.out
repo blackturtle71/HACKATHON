@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:16:43
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Perodicticus_potto.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Perodicticus_potto.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Perodicticus_potto.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Perodicticus_potto     from: 1   to: 16638
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus   
+  16161   16376       +     200     12     18     99.1 acgtatacacat
+  13921   14090       +      20     10     17     58.8 acacccaaaa  
+
+#---------------------------------------
+#---------------------------------------

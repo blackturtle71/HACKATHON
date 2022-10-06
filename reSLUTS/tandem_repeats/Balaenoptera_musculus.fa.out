@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:00:15
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Balaenoptera_musculus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Balaenoptera_musculus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Balaenoptera_musculus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Balaenoptera_musculus     from: 1   to: 16402
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  10821   10952       +      21     33      4     70.5 ctaatagtacgacaatccctccttatcataata                                                
+  14035   14277       +      20     81      3     70.8 taacttctccactaataaacgcagaactcccagtaacagatactacccaaactcctaaactatatacccctaatacaactt
+
+#---------------------------------------
+#---------------------------------------

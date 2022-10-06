@@ -1,0 +1,35 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:04:49
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Trichosurus_vulpecula.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Trichosurus_vulpecula.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Trichosurus_vulpecula.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Trichosurus_vulpecula     from: 1   to: 17191
+# HitCount: 5
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                         
+  16450   16679       +     220     10     23    100.0 taatttataa                        
+  16821   16956       +     122      8     17     97.8 agtattat                          
+  15741   15818       +      32     26      3     87.2 tataactataatattacataatacat        
+  13876   14067       +      20     24      8     61.5 ccaaaaactgcaaatacaaaacca          
+  13604   13739       +      20     34      4     69.9 aaaaaagacaaacagtaataaacaacaccaaaac
+
+#---------------------------------------
+#---------------------------------------

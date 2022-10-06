@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:50
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Elephas_maximus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Elephas_maximus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Elephas_maximus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Elephas_maximus     from: 1   to: 16902
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+  16157   16600       +     246      6     74     78.4 gcatac   
+  11742   11801       +      22      6     10     73.3 cctaac   
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:09:54
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Tamandua_tetradactyla.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Tamandua_tetradactyla.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Tamandua_tetradactyla.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Tamandua_tetradactyla     from: 1   to: 16395
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                        
+  10347   10610       +      29     33      8     61.7 tactcctaacctaaatactaattgcacgaaaat
+  13874   13957       +      21     21      4     75.0 ccaaaacctaaaaacaaccca            
+  15043   15135       +      20      3     31     62.4 tac                              
+
+#---------------------------------------
+#---------------------------------------

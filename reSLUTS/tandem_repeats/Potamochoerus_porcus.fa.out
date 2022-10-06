@@ -1,0 +1,35 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:14:19
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Potamochoerus_porcus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Potamochoerus_porcus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Potamochoerus_porcus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Potamochoerus_porcus     from: 1   to: 16693
+# HitCount: 5
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  16129   16358       +     214     10     23     98.7 acgtgcgtac                                                                       
+   4495    4650       +      25     39      4     70.5 taaaacaaaacaactataaccatattcctattactaata                                          
+  13889   14058       +      22     10     17     59.4 ccaaaaaaaa                                                                       
+  13589   13831       +      22     81      3     71.2 accataacttcttctccaataaacgctgaacaacccgtaccaagaactattcaaagaccagaaccatataacccaaaaata
+  15617   15694       +      20     26      3     79.5 ttattattgatattacatagtacata                                                       
+
+#---------------------------------------
+#---------------------------------------

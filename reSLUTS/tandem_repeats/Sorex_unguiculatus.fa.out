@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:13:03
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Sorex_unguiculatus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Sorex_unguiculatus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Sorex_unguiculatus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Sorex_unguiculatus     from: 1   to: 17105
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                     
+  16545   16796       +     216     14     18     95.6 gcctatacacgtac                                                                
+  15574   15807       +     120     78      3     92.3 agtacataatgcattctatgtatattgtacatttcattctatcccacatgcatataagcatgtacatactatttttat
+
+#---------------------------------------
+#---------------------------------------

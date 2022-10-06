@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:16:47
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Mogera_wogura.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Mogera_wogura.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Mogera_wogura.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Mogera_wogura     from: 1   to: 16814
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+  16230   16453       +     212      8     28     99.1 acacgtat 
+   3007    3060       +      20      6      9     74.1 ccacta   
+
+#---------------------------------------
+#---------------------------------------

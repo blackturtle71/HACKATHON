@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:05:00
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Neovison_vison.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Neovison_vison.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Neovison_vison.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Neovison_vison     from: 1   to: 16552
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus         
+  16014   16265       +     108     18     14     75.0 acgtacacgtacacacac
+
+#---------------------------------------
+#---------------------------------------

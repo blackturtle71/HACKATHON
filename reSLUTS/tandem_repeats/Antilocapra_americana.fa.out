@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:08:25
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Antilocapra_americana.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Antilocapra_americana.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Antilocapra_americana.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Antilocapra_americana     from: 1   to: 16352
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  15639   15716       +      22     26      3     80.8 atagtacatagtacattaagttattt                                                       
+  13568   13810       +      22     81      3     71.2 agtaaataccatcataacctcctcaccaatcaacacagagtaacctgtaccaaatactatccaaagaccagtactatataa
+
+#---------------------------------------
+#---------------------------------------

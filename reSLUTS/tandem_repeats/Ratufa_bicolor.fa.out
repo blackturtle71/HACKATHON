@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:09:33
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Ratufa_bicolor.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Ratufa_bicolor.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Ratufa_bicolor.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Ratufa_bicolor     from: 1   to: 16563
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

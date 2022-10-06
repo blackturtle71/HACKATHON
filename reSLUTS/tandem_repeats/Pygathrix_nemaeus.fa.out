@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:08:55
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Pygathrix_nemaeus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Pygathrix_nemaeus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Pygathrix_nemaeus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Pygathrix_nemaeus     from: 1   to: 15467
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus             
+   8054    8143       +      23     15      6     71.1 attcaactaattata       
+  13553   13596       +      22     22      2    100.0 tcccacttttaattatataatc
+
+#---------------------------------------
+#---------------------------------------

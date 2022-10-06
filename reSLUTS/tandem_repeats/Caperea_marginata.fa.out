@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:16:45
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Caperea_marginata.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Caperea_marginata.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Caperea_marginata.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Caperea_marginata     from: 1   to: 16383
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                              
+   4537    4653       +      22     39      3     76.1 actattaatattattaatataaaacacaacaaccaccac
+  13907   14046       +      20     10     14     60.7 aacacccaaa                             
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:04:13
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Equus_hemionus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Equus_hemionus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Equus_hemionus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Equus_hemionus     from: 1   to: 16634
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                    
+  16091   16294       +     162     12     17     92.6 acacacctgtgc                                 
+  16302   16383       +      37     41      2     97.6 agcaagtaatgtaactttcttaatcaaacccccccccaccc    
+   2902    3036       +      24     45      3     75.6 actacaaccccttaccctagccctcaccatatttatcaccgtacc
+
+#---------------------------------------
+#---------------------------------------

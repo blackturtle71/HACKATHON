@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:38
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Acinonyx_jubatus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Acinonyx_jubatus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Acinonyx_jubatus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Acinonyx_jubatus     from: 1   to: 17047
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+    267     590       +     296      6     54     96.6 cgtaca                                                                          
+  16519   16838       +     162     80      4     87.8 gcatgtacagttattcatatatattacataagacatactatgtatatcgtgcattagttgctagtccccatgaatattaa
+
+#---------------------------------------
+#---------------------------------------

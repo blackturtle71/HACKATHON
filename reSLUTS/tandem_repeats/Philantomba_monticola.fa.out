@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:17:16
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Philantomba_monticola.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Philantomba_monticola.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Philantomba_monticola.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Philantomba_monticola     from: 1   to: 16451
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                    
+  15619   15772       +      27     77      2     83.8 agaattaatgtaataaagacataatatgtatgtagtacataaaattatctagtacatgcatataagcaagtatttaa
+   3246    3425       +      20     36      5     65.6 agaactagtatcattttttttcacagcagaagaagc                                         
+
+#---------------------------------------
+#---------------------------------------

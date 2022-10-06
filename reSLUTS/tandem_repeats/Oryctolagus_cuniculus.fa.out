@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:13:11
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Oryctolagus_cuniculus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Oryctolagus_cuniculus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Oryctolagus_cuniculus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Oryctolagus_cuniculus     from: 1   to: 17245
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus           
+  16224   16443       +     196     20     11     99.1 gcacgtacacccgtacgcac
+   8059    8133       +      20     15      5     73.3 aaccaactaatatta     
+
+#---------------------------------------
+#---------------------------------------

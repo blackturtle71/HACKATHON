@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:13:26
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Gazella_subgutturosa.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Gazella_subgutturosa.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Gazella_subgutturosa.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Gazella_subgutturosa     from: 1   to: 16433
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                 
+  16167   16262       +      24     24      4     75.0 tggacattatagtcaatggaagca                  
+   4093    4218       +      22     42      3     75.4 caacagcctcaatactattaaccatagccgtagttataaaac
+
+#---------------------------------------
+#---------------------------------------

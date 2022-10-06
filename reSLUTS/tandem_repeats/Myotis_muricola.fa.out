@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:01:27
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Myotis_muricola.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Myotis_muricola.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Myotis_muricola.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Myotis_muricola     from: 1   to: 17224
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                         
+  16581   16928       +     342      6     58    100.0 cgcata                                                                            
+  15540   16031       +     302     82      6     89.0 tataattgtacattaacttatttaccacatgaatattaagcaagtactttaacaacattaatattacataatacattatatg
+
+#---------------------------------------
+#---------------------------------------

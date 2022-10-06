@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:00:32
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Sus_scrofa_taivanus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Sus_scrofa_taivanus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Sus_scrofa_taivanus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Sus_scrofa_taivanus     from: 1   to: 16480
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+    196     273       +      22     26      3     80.8 atattacatagtacatattattatta                                                       
+  14629   14871       +      22     81      3     71.2 cattataacttcctctccaataaacgctgaataacccgtaccaaaaactattcaaaaaccagaaccatataatccaaaaat
+   5542    5697       +      21     39      4     69.2 acaaaacaaccataacaatattcctactactaatataca                                          
+
+#---------------------------------------
+#---------------------------------------

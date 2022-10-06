@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:32
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Crocuta_crocuta.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Crocuta_crocuta.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Crocuta_crocuta.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Crocuta_crocuta     from: 1   to: 17138
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                  
+  16580   16879       +     195     75      4     95.0 agacatactatgtacatcgtgcattaactgatagtccccatgaatattaagtacctatgtaactgtaatgtatta
+    254     509       +     184     32      8     92.2 cgcacacccacgcatacgcacacacgtacgta                                           
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:16:50
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Pseudois_schaeferi.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Pseudois_schaeferi.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Pseudois_schaeferi.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Pseudois_schaeferi     from: 1   to: 16663
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                  
+  15824   16048       +      70     75      3     82.2 ctcatgcatataagcatgtacataatattaatgtaataaagacataatatgtatatattacattacatgttttac
+   4054    4221       +      26     42      4     70.2 caacccaacagcctcaatactattaacaatagctatcattat                                 
+
+#---------------------------------------
+#---------------------------------------

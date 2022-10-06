@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:17:38
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Macaca_leonina.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Macaca_leonina.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Macaca_leonina.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Macaca_leonina     from: 1   to: 17050
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                    
+  16148   16327       +      23     45      4     68.9 cgcatccaaactacaaatcacaacacttctaaccctcagccaaat
+
+#---------------------------------------
+#---------------------------------------

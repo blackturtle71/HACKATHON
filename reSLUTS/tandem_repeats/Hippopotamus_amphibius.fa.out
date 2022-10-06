@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:16:30
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Hippopotamus_amphibius.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Hippopotamus_amphibius.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Hippopotamus_amphibius.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Hippopotamus_amphibius     from: 1   to: 16407
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                 
+  15562   15613       +      22     26      2     96.2 ataggacatattatgtataatcgtgc
+   4507    4641       +      20     15      9     63.0 aaccataacaaccct           
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:13:34
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Propithecus_coquereli.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Propithecus_coquereli.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Propithecus_coquereli.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Propithecus_coquereli     from: 1   to: 17104
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                 
+  16273   16648       +     310      8     47     92.3 acgcatac                  
+   4556    4654       +      22      9     11     65.7 atcaccata                 
+  15720   15797       +      20     26      3     79.5 tacattaatcggataaggcacatatc
+
+#---------------------------------------
+#---------------------------------------

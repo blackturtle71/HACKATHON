@@ -1,0 +1,34 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:15:07
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Euphractus_sexcinctus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Euphractus_sexcinctus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Euphractus_sexcinctus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Euphractus_sexcinctus     from: 1   to: 16602
+# HitCount: 4
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  15473   15712       +      98     80      3     87.1 ataattttacataatacatcctatgtattatcgtgcatacatctatctaccacatgcatatcatataatactatatacta
+  16420   16549       +      65     65      2    100.0 tttttttaagcaaaaatttagagcaaaaaacactttaaatttattttagtgatttttttttaatt               
+  16171   16248       +      54      6     13     88.5 tacgca                                                                          
+   4531    4779       +      26      3     83     55.8 taa                                                                             
+
+#---------------------------------------
+#---------------------------------------

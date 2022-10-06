@@ -1,0 +1,35 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:21
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Chaetophractus_villosus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Chaetophractus_villosus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Chaetophractus_villosus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Chaetophractus_villosus     from: 1   to: 16796
+# HitCount: 5
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  16504   16759       +     180     64      4     97.7 taagtgaaaaattagagcaaaaaatactttaaatttattttagtgatttttttttaattttttt                
+  16174   16335       +     106      6     27     84.6 cacgta                                                                          
+  15431   15670       +      80     80      3     83.3 cacttatttaccccatgcatatcatataatactatacattaataatcttacatagtacatcctatgtataatcgtacata
+   4528    4797       +      29      9     30     57.0 aataataac                                                                       
+   2979    3038       +      20     12      5     76.7 ttcaccctagcc                                                                    
+
+#---------------------------------------
+#---------------------------------------

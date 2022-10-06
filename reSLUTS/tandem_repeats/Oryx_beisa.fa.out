@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:06:28
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Oryx_beisa.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Oryx_beisa.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Oryx_beisa.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Oryx_beisa     from: 1   to: 16518
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                 
+   4078    4203       +      24     42      3     76.2 tatcctaattaattcaacagcctcaatactattaacaatagc
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:00:39
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Manis_javanica.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Manis_javanica.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Manis_javanica.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Manis_javanica     from: 1   to: 16576
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  15483   15716       +     118     78      3     91.9 catgcatataagcaggtacattatattattatagtacataggacatattatgtataatcgtgcattattgatctagta   
+  13556   13879       +      23     81      4     66.0 gagcaaccacaaccacaacagccacacaaataaaaatataccccccaataacaatcgccgcccaatcaccaaaaacaacaa
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:17:37
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Mazama_americana.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Mazama_americana.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Mazama_americana.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Mazama_americana     from: 1   to: 16478
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                  
+  15602   15751       +      65     75      2     96.7 acataaaattaatgtactaggacatattatgtataatagtacattatattatataccccatgcttataagcaagt
+  16198   16291       +      23     47      2     87.2 taatgtaagatatagacattatagtcaatggtagcaggacataatta                            
+
+#---------------------------------------
+#---------------------------------------

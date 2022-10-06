@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:05:29
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Litocranius_walleri.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Litocranius_walleri.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Litocranius_walleri.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Litocranius_walleri     from: 1   to: 16438
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                           
+   3245    3424       +      26     36      5     67.2 agaactagtatcattattctttacagcagaagaagc
+  13873   14042       +      22     10     17     59.4 cccaaaaaaa                          
+   4834    4923       +      20     30      3     77.8 acacaaataaccttactactaccaattaca      
+
+#---------------------------------------
+#---------------------------------------

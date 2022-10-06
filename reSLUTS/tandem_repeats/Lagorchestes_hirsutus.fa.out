@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:15:56
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Lagorchestes_hirsutus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Lagorchestes_hirsutus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Lagorchestes_hirsutus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Lagorchestes_hirsutus     from: 1   to: 16889
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                             
+  13892   14059       +      24     24      7     64.3 accaaaaactacaaaacccaaacc              
+  15746   15859       +      24     38      3     77.2 aataagctttaccactagcatatctccaagtacataaa
+
+#---------------------------------------
+#---------------------------------------

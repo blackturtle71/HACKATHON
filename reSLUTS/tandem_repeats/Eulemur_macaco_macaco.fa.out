@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:09:53
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Eulemur_macaco_macaco.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Eulemur_macaco_macaco.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Eulemur_macaco_macaco.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Eulemur_macaco_macaco     from: 1   to: 17149
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                       
+  16281   16718       +     318      6     73     87.0 acacgt                                          
+  13903   14094       +      20     48      4     67.7 ttgaaccaataacaacaagccccaccccaaaaaaaatgataaatacta
+
+#---------------------------------------
+#---------------------------------------

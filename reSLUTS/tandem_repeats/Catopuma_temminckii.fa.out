@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:02:20
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Catopuma_temminckii.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Catopuma_temminckii.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Catopuma_temminckii.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Catopuma_temminckii     from: 1   to: 16985
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+    251     600       +     160     14     25     74.9 cgtatacacgtaca                                                                  
+  16553   16712       +      78     80      2     99.4 tatatatattacataagacatactatgtatatcgtgcattaattgctagtccccatgaatattaagcatgtacagtagtt
+   3786    3920       +      22     45      3     74.8 actcctacctctcacactcgccctaaccatgttcattacagtacc                                   
+
+#---------------------------------------
+#---------------------------------------

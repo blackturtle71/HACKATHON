@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:11:44
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Martes_flavigula.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Martes_flavigula.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Martes_flavigula.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Martes_flavigula     from: 1   to: 16549
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+  16003   16274       +     116      8     34     72.8 tacacgta 
+
+#---------------------------------------
+#---------------------------------------

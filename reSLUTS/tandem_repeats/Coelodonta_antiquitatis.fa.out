@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:07:08
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Coelodonta_antiquitatis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Coelodonta_antiquitatis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Coelodonta_antiquitatis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Coelodonta_antiquitatis     from: 1   to: 16436
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

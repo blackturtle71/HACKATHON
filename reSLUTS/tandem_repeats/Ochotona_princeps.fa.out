@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:09:12
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Ochotona_princeps.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Ochotona_princeps.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Ochotona_princeps.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Ochotona_princeps     from: 1   to: 16481
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus      
+  16248   16481       +     228      6     39    100.0 tacgtg         
+   8042    8116       +      20     15      5     73.3 ctaattctaatccaa
+
+#---------------------------------------
+#---------------------------------------

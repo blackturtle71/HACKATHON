@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 12:59:32
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Okapia_johnstoni.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Okapia_johnstoni.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Okapia_johnstoni.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Okapia_johnstoni     from: 1   to: 16422
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus              
+  14847   14894       +      24      6      8     81.2 aatact                 
+  16153   16221       +      20     23      3     81.2 acatgtaattaatggttgcagga
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 12:58:53
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Loris_tardigradus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Loris_tardigradus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Loris_tardigradus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Loris_tardigradus     from: 1   to: 16776
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus     
+  16261   16512       +     232     14     18     98.8 catacacgcatacg
+
+#---------------------------------------
+#---------------------------------------

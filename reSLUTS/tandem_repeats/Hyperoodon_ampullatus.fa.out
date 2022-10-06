@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:05:32
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Hyperoodon_ampullatus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Hyperoodon_ampullatus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Hyperoodon_ampullatus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Hyperoodon_ampullatus     from: 1   to: 16346
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                              
+   4533    4649       +      20     39      3     75.2 caacttttacactattaatgttactaatctaaaacacaa
+
+#---------------------------------------
+#---------------------------------------

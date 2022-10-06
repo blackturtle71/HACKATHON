@@ -1,0 +1,37 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 12:59:25
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Hemiechinus_auritus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Hemiechinus_auritus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Hemiechinus_auritus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Hemiechinus_auritus     from: 1   to: 17283
+# HitCount: 7
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                     
+  16585   16872       +     280      8     36    100.0 acacgtat                                                                      
+  15636   15947       +     200     78      4     94.6 atgtacattaaactaaaatattacataatacattaaattatattcttattaaaacttatgtacaactagcatatatac
+  17077   17223       +      26     21      7     66.0 atttatatatataatatttat                                                         
+  10495   10602       +      20     12      9     64.8 taatttcattaa                                                                  
+   1127    1186       +      20     12      5     76.7 attacaaatata                                                                  
+   4716    4895       +      20     36      5     65.6 ataacaatattatctttatatataataacaaataat                                          
+   2894    3028       +      20     45      3     74.1 ctatagcccctattctacccatcacatttgccctaatactattta                                 
+
+#---------------------------------------
+#---------------------------------------

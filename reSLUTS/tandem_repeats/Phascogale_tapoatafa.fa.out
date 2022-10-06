@@ -1,0 +1,35 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:03:19
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Phascogale_tapoatafa.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Phascogale_tapoatafa.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Phascogale_tapoatafa.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Phascogale_tapoatafa     from: 1   to: 17405
+# HitCount: 5
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                  
+  16527   16676       +     122     10     15     94.0 gcgtgtatgt                                                                 
+  17090   17189       +      70     10     10     90.0 ttttgtttag                                                                 
+  16901   16940       +      26     10      4     95.0 tattacaaga                                                                 
+  15538   15762       +      24     75      3     72.0 ttcattcctaaacctctagcatataataatatacattatttaaatgtaattataaatacatatgtatatagatca
+  15807   15856       +      21     25      2     96.0 atatagtacataagacataatatgt                                                  
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:06:48
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Muntiacus_crinifrons.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Muntiacus_crinifrons.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Muntiacus_crinifrons.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Muntiacus_crinifrons     from: 1   to: 16357
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

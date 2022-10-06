@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:06:13
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Syncerus_caffer.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Syncerus_caffer.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Syncerus_caffer.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Syncerus_caffer     from: 1   to: 16359
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

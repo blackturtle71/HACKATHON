@@ -1,0 +1,35 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:11:18
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Episoriculus_macrurus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Episoriculus_macrurus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Episoriculus_macrurus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Episoriculus_macrurus     from: 1   to: 16943
+# HitCount: 5
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+    907    1218       +     304      8     39    100.0 cacgtata                                                                        
+     91     330       +      88     80      3     85.0 cgtacattctattatttaccacatgcatataagcaagtacatactattattaattatacattattacattatatgtataa
+   1387    1414       +      24      2     14     96.4 at                                                                              
+  10651   10749       +      24     33      3     78.8 gcagctggattttatggctcccctttcattatc                                               
+   5404    5529       +      23      3     42     60.3 taa                                                                             
+
+#---------------------------------------
+#---------------------------------------

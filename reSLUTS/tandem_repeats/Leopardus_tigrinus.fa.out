@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:17:34
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Leopardus_tigrinus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Leopardus_tigrinus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Leopardus_tigrinus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Leopardus_tigrinus     from: 1   to: 16767
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+    280     415       +     112      8     17     94.1 cacacgta                                                                        
+  16360   16519       +      66     80      2     95.6 atactatgtatatcgtgcattaattgctagtccccatgaatattaagcatgtacagtagtttatatatattacataagac
+   3594    3728       +      24     45      3     75.6 ctcctaccccttacactagccataaccatattaatcacagtaccc                                   
+
+#---------------------------------------
+#---------------------------------------

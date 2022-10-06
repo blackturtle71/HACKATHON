@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:05:30
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Mesoplodon_densirostris.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Mesoplodon_densirostris.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Mesoplodon_densirostris.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Mesoplodon_densirostris     from: 1   to: 16347
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                        
+  10407   10538       +      21     33      4     70.5 ctaattatacgacaataactttttattataata
+   4509    4604       +      20     24      4     72.9 aacaatatttattttactaaacca         
+
+#---------------------------------------
+#---------------------------------------

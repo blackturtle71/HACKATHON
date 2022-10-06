@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:07:28
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Pteronotus_rubiginosus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Pteronotus_rubiginosus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Pteronotus_rubiginosus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Pteronotus_rubiginosus     from: 1   to: 16616
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus         
+  16287   16340       +      36     18      3    100.0 cgtacacccacacgtacg
+
+#---------------------------------------
+#---------------------------------------

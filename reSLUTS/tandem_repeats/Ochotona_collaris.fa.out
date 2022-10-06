@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:44
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Ochotona_collaris.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Ochotona_collaris.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Ochotona_collaris.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Ochotona_collaris     from: 1   to: 16968
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                            
+  16268   16429       +     156      6     27    100.0 gtgtac                                               
+  15512   15723       +      23     53      4     67.9 taaaattcataatagtacatagtacataaatgtttaatcgtacataaaccatt
+
+#---------------------------------------
+#---------------------------------------

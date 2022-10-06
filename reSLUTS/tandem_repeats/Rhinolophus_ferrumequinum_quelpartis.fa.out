@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:13:59
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Rhinolophus_ferrumequinum_quelpartis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Rhinolophus_ferrumequinum_quelpartis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Rhinolophus_ferrumequinum_quelpartis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Rhinolophus_ferrumequinum_quelpartis     from: 1   to: 16870
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                
+  16290   16520       +     208     11     21     97.4 acgcaacgtgt                                              
+   9997   10086       +      21      3     30     63.3 ata                                                      
+  13624   13851       +      21     57      4     67.1 taacaaacaccccagaaaccccatcactatataaaacccaatcaccgattccaacct
+
+#---------------------------------------
+#---------------------------------------

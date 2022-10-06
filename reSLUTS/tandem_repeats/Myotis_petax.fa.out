@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:16:34
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Myotis_petax.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Myotis_petax.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Myotis_petax.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Myotis_petax     from: 1   to: 17297
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+    253     738       +     373     81      6     96.7 atatgtataattgtacattaacttatttaccacataaatattaagcaagtacatattaacattaataatacataatacatt
+   1306    1671       +     358      6     61     99.7 acgcat                                                                           
+   6584    6745       +      22     18      9     62.3 aactatactaccactaat                                                               
+
+#---------------------------------------
+#---------------------------------------

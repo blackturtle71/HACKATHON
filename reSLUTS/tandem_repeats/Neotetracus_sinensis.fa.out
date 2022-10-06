@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:14:15
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Neotetracus_sinensis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Neotetracus_sinensis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Neotetracus_sinensis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Neotetracus_sinensis     from: 1   to: 16982
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                 
+  15532   15975       +     362     74      6     99.1 attatttaatacattatatgtacattttacattatttatttaccacatgcttataagcatgtacattaaattaa
+  16488   16757       +     214      6     45     90.7 cgcata                                                                    
+   4500    4639       +      20     28      5     67.1 atataaattaacatcttcattatttcaa                                              
+
+#---------------------------------------
+#---------------------------------------

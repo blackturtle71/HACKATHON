@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:08:17
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Myotis_ikonnikovi.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Myotis_ikonnikovi.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Myotis_ikonnikovi.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Myotis_ikonnikovi     from: 1   to: 16584
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  15528   16094       +     424     81      7     94.5 gtacattaaattattcaccatatgaatattaaataagtacatactaacatttatattacataatacatcctatgtataatc
+  16102   16305       +      44     34      6     69.1 cacgcacgcacacgcacgcacacgcacacacaca                                               
+
+#---------------------------------------
+#---------------------------------------

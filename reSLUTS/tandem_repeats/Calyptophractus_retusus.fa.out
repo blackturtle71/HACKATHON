@@ -1,0 +1,34 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:02:07
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Calyptophractus_retusus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Calyptophractus_retusus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Calyptophractus_retusus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Calyptophractus_retusus     from: 1   to: 16231
+# HitCount: 4
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  16073   16114       +      36      6      7    100.0 cgcata                                                                          
+  16129   16224       +      26      8     12     67.7 tatattaa                                                                        
+   4495    4590       +      22     12      8     67.7 ataataatcatc                                                                    
+  15454   15613       +      22     80      2     81.9 taccatacattaataatcttacatagtacatcctatgtataatcgtacatacacctacctaccccatgcatatcacaaag
+
+#---------------------------------------
+#---------------------------------------

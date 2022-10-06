@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:04:57
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Eschrichtius_robustus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Eschrichtius_robustus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Eschrichtius_robustus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Eschrichtius_robustus     from: 1   to: 16412
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                  
+  11783   11854       +      21      9      8     70.8 cctaatcac                  
+   3927    4088       +      21     27      6     64.8 ttcatccttaacataataataacccct
+  13984   14115       +      20      6     22     59.8 accaaa                     
+
+#---------------------------------------
+#---------------------------------------

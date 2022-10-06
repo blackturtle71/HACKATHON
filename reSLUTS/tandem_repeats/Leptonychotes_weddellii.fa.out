@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:07:21
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Leptonychotes_weddellii.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Leptonychotes_weddellii.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Leptonychotes_weddellii.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Leptonychotes_weddellii     from: 1   to: 16603
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                       
+  16116   16299       +      88      2     92     74.5 ac                                              
+  10376   10540       +      20     33      5     66.1 ccataatactaatagccacacaattactcctat               
+  13887   14078       +      20     48      4     67.7 tagaaccaaaaacaacaaaactaaccccaaaaaaaatactaaaaacaa
+
+#---------------------------------------
+#---------------------------------------

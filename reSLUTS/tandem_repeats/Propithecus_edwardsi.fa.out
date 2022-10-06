@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:04:00
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Propithecus_edwardsi.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Propithecus_edwardsi.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Propithecus_edwardsi.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Propithecus_edwardsi     from: 1   to: 17100
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                 
+  16296   16655       +     302      8     45     93.1 cacgtata                  
+  15725   15802       +      20     26      3     79.5 ttcattaatcggataaggcacatatc
+
+#---------------------------------------
+#---------------------------------------

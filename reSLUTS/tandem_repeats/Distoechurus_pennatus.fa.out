@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:04:46
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Distoechurus_pennatus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Distoechurus_pennatus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Distoechurus_pennatus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Distoechurus_pennatus     from: 1   to: 16775
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                           
+  13867   14058       +      22     48      4     68.2 agcaatagaaccaaaaactacaaatcccaatctaaaaaaaattgtaaa    
+  16541   16696       +      20     52      3     73.1 gattattcttttaaattcacaaaattaagaatttataaattaactttcaaaa
+
+#---------------------------------------
+#---------------------------------------

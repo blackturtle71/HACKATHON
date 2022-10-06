@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:09:04
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Bradypus_torquatus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Bradypus_torquatus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Bradypus_torquatus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Bradypus_torquatus     from: 1   to: 16714
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus             
+  16215   16412       +     152      6     33     89.9 tacgca                
+  16102   16211       +      36     22      5     76.4 tcaatggttacaggacatacat
+  13898   14018       +      20     11     11     62.8 aaacaccacca           
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:37
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Ailuropoda_melanoleuca.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Ailuropoda_melanoleuca.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Ailuropoda_melanoleuca.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Ailuropoda_melanoleuca     from: 1   to: 16805
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                              
+    693    1022       +     292     10     33     95.8 cacgtgtacg                             
+     95     172       +      25     39      2     91.0 ctccccctatgtatatcgtgcattaatggcgtgccccat
+
+#---------------------------------------
+#---------------------------------------

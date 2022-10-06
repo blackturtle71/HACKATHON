@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:13:36
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Lynx_rufus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Lynx_rufus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Lynx_rufus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Lynx_rufus     from: 1   to: 17056
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  16499   16818       +     214     80      4     95.9 cattaattgccagtccccatgaatattaagcatgtacagtagtttatatatattacataaggcatactatgtatatcgtg
+    251     600       +     160     50      7     80.0 cgcacacacgtacacacgtacacgtacacacgtacacgtacacacgtaca                              
+   3774    3908       +      20     45      3     74.1 acttctacccctcacactcgccctaaccatattaattacagtacc                                   
+
+#---------------------------------------
+#---------------------------------------

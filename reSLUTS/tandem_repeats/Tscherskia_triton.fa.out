@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:01:35
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Tscherskia_triton.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Tscherskia_triton.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Tscherskia_triton.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Tscherskia_triton     from: 1   to: 16488
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                    
+  10913   11143       +      38     77      3     74.9 attctagtaatccactaaatataacttaaattttagtatgtataaagcaaaaactcctaaaaagaatacttttctaa
+
+#---------------------------------------
+#---------------------------------------

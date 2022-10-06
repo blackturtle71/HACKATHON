@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:03:17
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Ovis_ammon.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Ovis_ammon.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Ovis_ammon.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Ovis_ammon     from: 1   to: 16613
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                  
+  15656   15955       +     217     75      4     98.7 attaatgtaatatagacattatatgtataaagtacattaaatgatttacctcatgcatataagcatgtacataat
+   4063    4230       +      22     42      4     69.0 agcctcaatactattaacaatagccatcctaattaaactaat                                 
+   3252    3431       +      20     36      5     65.6 agaactagtatcattattcttcacagcagaagatgc                                       
+
+#---------------------------------------
+#---------------------------------------

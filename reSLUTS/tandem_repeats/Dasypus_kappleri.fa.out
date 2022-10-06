@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:14:44
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Dasypus_kappleri.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Dasypus_kappleri.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Dasypus_kappleri.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Dasypus_kappleri     from: 1   to: 16636
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                         
+  16101   16208       +      88      6     18     93.5 cgcata                                                            
+  16414   16611       +      80     66      3     86.9 ttttcactagaaaaataggaataaattcatacatttaaattttatcgtaatttttttttaattttt
+   4811    4957       +      26     21      7     66.0 atctcaccaacattaatcacc                                             
+
+#---------------------------------------
+#---------------------------------------

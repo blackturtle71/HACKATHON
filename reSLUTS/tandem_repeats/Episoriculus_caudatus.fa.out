@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:03:07
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Episoriculus_caudatus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Episoriculus_caudatus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Episoriculus_caudatus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Episoriculus_caudatus     from: 1   to: 17129
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                      
+  16581   16892       +     266     12     26     94.6 acacgtacgctt                                                                   
+  15643   16037       +     266     79      5     93.7 atgcatataagcatgtacatattattatttattatacattatacattatatgtatatcgtacattcaattatattcctc
+
+#---------------------------------------
+#---------------------------------------

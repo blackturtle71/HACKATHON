@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:06:21
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Meles_anakuma.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Meles_anakuma.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Meles_anakuma.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Meles_anakuma     from: 1   to: 16492
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                          
+  16057   16158       +      47     51      2     98.0 nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnncg
+  16160   16231       +      42      2     36     80.6 ac                                                 
+  15996   16055       +      42     10      6     93.3 acatacacac                                         
+
+#---------------------------------------
+#---------------------------------------

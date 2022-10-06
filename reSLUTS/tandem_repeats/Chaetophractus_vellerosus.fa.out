@@ -1,0 +1,35 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:02:44
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Chaetophractus_vellerosus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Chaetophractus_vellerosus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Chaetophractus_vellerosus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Chaetophractus_vellerosus     from: 1   to: 16598
+# HitCount: 5
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  15492   15731       +      94     80      3     86.2 tcctatgtataatcgtacatacacttatttaccccatgcatatcatataatactatacattaataatcttacatagtaca
+  16172   16249       +      72      6     13    100.0 catacg                                                                          
+  16433   16562       +      65     65      2    100.0 ttaagcgaaaaattagagcaaaaaacactttaaatttattttagtgatttttttttaattttttt               
+   4530    4799       +      21      9     30     55.6 ataataacc                                                                       
+   4862    4966       +      20     21      5     69.5 tctaacaacaatactaatact                                                           
+
+#---------------------------------------
+#---------------------------------------

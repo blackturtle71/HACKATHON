@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:11:50
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Taurotragus_derbianus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Taurotragus_derbianus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Taurotragus_derbianus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Taurotragus_derbianus     from: 1   to: 16399
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                               
+  15655   15734       +      32     40      2     95.0 atgtaataatgacataatatgtatatagtacattatatta
+  15739   15816       +      20     26      3     79.5 catcattgatagtacatagtacattt              
+
+#---------------------------------------
+#---------------------------------------

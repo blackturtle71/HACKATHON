@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:04:02
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Dipus_sagitta.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Dipus_sagitta.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Dipus_sagitta.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Dipus_sagitta     from: 1   to: 16664
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+  16091   16348       +     184      6     43     86.8 tacgca   
+
+#---------------------------------------
+#---------------------------------------

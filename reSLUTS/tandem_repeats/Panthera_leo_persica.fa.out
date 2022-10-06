@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:16:54
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Panthera_leo_persica.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Panthera_leo_persica.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Panthera_leo_persica.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Panthera_leo_persica     from: 1   to: 16818
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+    290     585       +     120      2    148     70.6 ca                                                                              
+  16418   16577       +      66     80      2     95.6 atcgtgcattaactgcttgtccccatgaatattaagcatgtacagtagtttatatatattacataagacatataagtgct
+
+#---------------------------------------
+#---------------------------------------

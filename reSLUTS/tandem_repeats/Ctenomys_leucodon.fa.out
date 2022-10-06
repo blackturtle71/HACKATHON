@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:15:27
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Ctenomys_leucodon.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Ctenomys_leucodon.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Ctenomys_leucodon.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Ctenomys_leucodon     from: 1   to: 16216
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

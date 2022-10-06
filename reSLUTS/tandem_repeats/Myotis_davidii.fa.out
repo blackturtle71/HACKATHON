@@ -1,0 +1,37 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:04:52
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Myotis_davidii.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Myotis_davidii.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Myotis_davidii.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Myotis_davidii     from: 1   to: 17531
+# HitCount: 7
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                        
+  15576   16385       +     649     81     10     95.1 ttaatattacattagacattacatgtataattgtacattaaactatcaaccacatgaatattaaacaagtacatactaaca
+  17046   17285       +     232      6     40     99.6 catacg                                                                           
+  16919   17044       +     120      6     21    100.0 catacg                                                                           
+  16868   16909       +      36      6      7    100.0 catacg                                                                           
+   2888    3022       +      24     45      3     75.6 tacaaccactaaccttagcacttataatatttattacagtaccca                                    
+   4802    4927       +      21      9     14     61.9 aataacaaa                                                                        
+   4488    4679       +      20     48      4     67.7 ttagccaccacaataactatcactaccataatattactaaaactacaa                                 
+
+#---------------------------------------
+#---------------------------------------

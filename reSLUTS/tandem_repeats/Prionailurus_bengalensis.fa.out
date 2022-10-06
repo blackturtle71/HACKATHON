@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:03:11
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Prionailurus_bengalensis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Prionailurus_bengalensis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Prionailurus_bengalensis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Prionailurus_bengalensis     from: 1   to: 16701
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  16281   16440       +      76     80      2     98.8 atattacataaaccatactatgtatatcgtgcattaactgctagtccccatgaatattaagcaggtactataatctatat
+    274     353       +      64      8     10     95.0 tacacgta                                                                        
+
+#---------------------------------------
+#---------------------------------------

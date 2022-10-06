@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:17:14
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Indri_indri.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Indri_indri.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Indri_indri.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Indri_indri     from: 1   to: 17098
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                 
+  16798   17083       +     166     22     13     82.9 cacacgcgcgcgcacacacaca    
+  16219   16296       +      26     26      3     83.3 tattaatcggatatggctcatcacgt
+
+#---------------------------------------
+#---------------------------------------

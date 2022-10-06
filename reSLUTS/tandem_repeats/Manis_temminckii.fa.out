@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:01:43
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Manis_temminckii.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Manis_temminckii.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Manis_temminckii.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Manis_temminckii     from: 1   to: 16559
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                     
+  15502   15657       +      66     78      2     96.2 aattattacagtacataggacatattatgtataatcgtgcattactgatataccccatgcatataagcaagtactatt
+   2955    3002       +      20      6      8     77.1 taccac                                                                        
+
+#---------------------------------------
+#---------------------------------------

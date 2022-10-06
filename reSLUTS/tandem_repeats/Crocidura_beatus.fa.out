@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:34
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Crocidura_beatus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Crocidura_beatus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Crocidura_beatus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Crocidura_beatus     from: 1   to: 15456
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

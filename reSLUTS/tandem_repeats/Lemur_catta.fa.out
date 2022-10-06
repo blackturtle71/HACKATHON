@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:02:49
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Lemur_catta.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Lemur_catta.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Lemur_catta.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Lemur_catta     from: 1   to: 17036
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                     
+  16241   16582       +     236      6     57     85.4 tgcaca                                                                        
+  15558   15713       +      30     78      2     84.6 aaatattccagttcataaaacttcaatccaccagcatataagccagtacataaacttcatatcgtacatagcacattc
+  16140   16233       +      21     47      2     86.2 ataattactacaggtgactatttaattcatgctcgaaagacataaga                               
+
+#---------------------------------------
+#---------------------------------------

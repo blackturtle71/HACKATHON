@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:00:01
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Pusa_hispida.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Pusa_hispida.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Pusa_hispida.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Pusa_hispida     from: 1   to: 16754
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                         
+  16108   16357       +     126     50      5     85.2 tacgtacacgtacacgtacacgtatacgcacgtacacgtacacgtacacg
+  16381   16422       +      21     21      2    100.0 gtacacgtatgtacacgtatg                             
+
+#---------------------------------------
+#---------------------------------------

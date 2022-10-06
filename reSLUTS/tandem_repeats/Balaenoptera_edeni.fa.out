@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:05:06
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Balaenoptera_edeni.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Balaenoptera_edeni.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Balaenoptera_edeni.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Balaenoptera_edeni     from: 1   to: 16409
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus 
+  13914   14043       +      22     10     13     62.3 caaccaaaaa
+
+#---------------------------------------
+#---------------------------------------

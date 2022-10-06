@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:11:48
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Phoca_fasciata.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Phoca_fasciata.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Phoca_fasciata.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Phoca_fasciata     from: 1   to: 16694
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                               
+  16101   16380       +     124     56      5     82.1 cacgtacacgtacacgtacacgtacacgtacacgtacacgtacacgtacacacata
+  13935   14078       +      22     36      4     70.1 caaatagcacaaccaatactcaaaacaaacacaaaa                    
+
+#---------------------------------------
+#---------------------------------------

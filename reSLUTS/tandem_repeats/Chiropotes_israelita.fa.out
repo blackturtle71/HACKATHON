@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:04:56
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Chiropotes_israelita.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Chiropotes_israelita.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Chiropotes_israelita.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Chiropotes_israelita     from: 1   to: 16670
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+  16642   16667       +      22      2     13     96.2 at       
+
+#---------------------------------------
+#---------------------------------------

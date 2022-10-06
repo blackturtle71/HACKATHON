@@ -1,0 +1,952 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Jan 21 2022
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Aster (AVX512, FMA3, 31 GB RAM)
+Command: iqtree2 -s clust.res -m GTR+F+R4 -nt AUTO
+Seed:    802163 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct  5 21:23:48 2022
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file clust.res ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 13 sites contain only gaps or ambiguous characters.
+Alignment has 810 sequences with 55051 columns, 39495 distinct patterns
+31430 parsimony-informative, 8263 singleton sites, 15357 constant sites
+                                      Gap/Ambiguity  Composition  p-value
+   1  Ornithorhynchus_anatinus               69.09%    failed      0.00%
+   2  Tachyglossus_aculeatus                 70.28%    failed      0.00%
+   3  Didelphis_virginiana                   68.97%    failed      0.00%
+   4  Thylacinus_cynocephalus                68.37%    failed      0.00%
+   5  Dasyurus_hallucatus                    68.83%    failed      0.00%
+   6  Phascogale_tapoatafa                   68.39%    failed      0.00%
+   7  Sminthopsis_crassicaudata              68.46%    failed      0.00%
+   8  Sarcophilus_harrisii                   68.91%    failed      0.00%
+   9  Potorous_tridactylus                   69.26%    failed      0.00%
+  10  Macropus_robustus                      69.31%    failed      0.07%
+  11  Pseudocheirus_peregrinus               70.90%    failed      0.06%
+  12  Trichosurus_vulpecula                  68.77%    failed      0.00%
+  13  Tamandua_mexicana                      70.24%    failed      0.00%
+  14  Choloepus_hoffmanni                    70.09%    failed      0.00%
+  15  Dasypus_novemcinctus                   69.02%    failed      0.00%
+  16  Erinaceus_europaeus                    68.31%    failed      0.00%
+  17  Echinops_telfairi                      69.94%    failed      0.00%
+  18  Talpa_europaea                         69.33%    failed      0.00%
+  19  Suncus_murinus                         68.68%    failed      0.00%
+  20  Pteropus_alecto                        69.59%    failed      0.00%
+  21  Rousettus_aegyptiacus                  69.65%    failed      0.00%
+  22  Artibeus_jamaicensis                   69.75%    failed      0.00%
+  23  Brachyphylla_cavernarum                69.51%    failed      0.68%
+  24  Desmodus_rotundus                      69.74%    failed      0.00%
+  25  Lemur_catta                            69.05%    failed      0.00%
+  26  Varecia_variegata                      69.07%    failed      0.00%
+  27  Cheirogaleus_medius                    69.48%    failed      0.00%
+  28  Otolemur_crassicaudatus                69.43%    failed      0.00%
+  29  Galago_senegalensis                    69.49%    failed      0.00%
+  30  Loris_tardigradus                      69.53%    failed      0.00%
+  31  Nycticebus_coucang                     69.55%    passed      5.78%
+  32  Perodicticus_potto                     69.78%    failed      0.00%
+  33  Callithrix_jacchus                     70.03%    failed      1.19%
+  34  Saguinus_oedipus                       69.94%    passed      5.81%
+  35  Callithrix_pygmaea                     69.99%    failed      1.24%
+  36  Callimico_goeldii                      69.99%    failed      0.00%
+  37  Alouatta_caraya                        70.00%    failed      0.02%
+  38  Alouatta_seniculus                     69.92%    failed      0.03%
+  39  Ateles_belzebuth                       69.92%    failed      0.00%
+  40  Cebus_albifrons                        69.93%    failed      0.01%
+  41  Lagothrix_lagotricha                   69.86%    failed      0.19%
+  42  Saimiri_sciureus                       70.08%    failed      0.01%
+  43  Cercocebus_torquatus                   69.95%    failed      0.00%
+  44  Cercocebus_atys                        69.95%    failed      0.00%
+  45  Chlorocebus_aethiops                   70.24%    failed      0.00%
+  46  Erythrocebus_patas                     69.71%    failed      0.00%
+  47  Macaca_arctoides                       69.92%    failed      0.00%
+  48  Macaca_fascicularis                    69.89%    failed      0.00%
+  49  Macaca_fuscata                         69.91%    failed      0.00%
+  50  Macaca_mulatta                         69.91%    failed      0.00%
+  51  Macaca_nemestrina                      69.92%    failed      0.00%
+  52  Macaca_sylvanus                        69.87%    failed      0.00%
+  53  Macaca_assamensis                      69.95%    failed      0.00%
+  54  Papio_anubis                           70.00%    failed      0.00%
+  55  Papio_cynocephalus                     70.00%    failed      0.00%
+  56  Papio_hamadryas                        69.99%    failed      0.00%
+  57  Mandrillus_sphinx                      69.95%    failed      0.00%
+  58  Theropithecus_gelada                   69.94%    failed      0.00%
+  59  Mandrillus_leucophaeus                 69.94%    failed      0.00%
+  60  Hylobates_agilis                       70.03%    failed      0.00%
+  61  Hylobates_lar                          70.08%    failed      0.00%
+  62  Nomascus_siki                          70.07%    failed      0.00%
+  63  Hylobates_pileatus                     70.02%    failed      0.00%
+  64  Symphalangus_syndactylus               70.00%    failed      0.00%
+  65  Gorilla_gorilla                        70.27%    failed      0.00%
+  66  Gorilla_gorilla_gorilla                70.19%    failed      0.00%
+  67  Pan_paniscus                           69.91%    failed      0.00%
+  68  Pan_troglodytes                        69.93%    failed      0.00%
+  69  Pongo_pygmaeus                         70.23%    failed      0.00%
+  70  Pongo_abelii                           70.03%    failed      0.00%
+  71  Homo_sapiens                           69.90%    failed      0.00%
+  72  Canis_lupus                            69.62%    failed      0.25%
+  73  Canis_latrans                          69.64%    failed      0.15%
+  74  Canis_lupus_familiaris                 69.62%    failed      0.21%
+  75  Lycaon_pictus                          70.62%    failed      2.53%
+  76  Vulpes_vulpes                          69.46%    failed      0.05%
+  77  Vulpes_corsac                          69.63%    failed      0.15%
+  78  Helarctos_malayanus                    69.51%    failed      0.00%
+  79  Melursus_ursinus                       69.45%    failed      0.00%
+  80  Tremarctos_ornatus                     69.55%    failed      0.00%
+  81  Ursus_thibetanus                       69.49%    failed      0.00%
+  82  Ursus_americanus                       69.41%    failed      0.00%
+  83  Ursus_arctos                           69.08%    failed      0.00%
+  84  Ailuropoda_melanoleuca                 69.47%    failed      0.00%
+  85  Ailurus_fulgens                        70.04%    failed      0.00%
+  86  Nasua_nasua                            70.23%    failed      0.00%
+  87  Procyon_lotor                          69.81%    passed     21.26%
+  88  Lutra_lutra                            69.96%    failed      0.00%
+  89  Martes_foina                           69.97%    failed      0.00%
+  90  Martes_americana                       70.00%    failed      0.00%
+  91  Meles_meles                            70.13%    failed      1.41%
+  92  Paguma_larvata                         69.65%    failed      0.00%
+  93  Crocuta_crocuta                        68.87%    failed      0.00%
+  94  Felis_silvestris                       69.78%    passed     82.35%
+  95  Felis_catus                            69.10%    passed     62.80%
+  96  Panthera_leo                           69.81%    passed     15.40%
+  97  Panthera_onca                          69.03%    passed      9.93%
+  98  Panthera_pardus                        69.18%    failed      2.69%
+  99  Puma_concolor                          68.84%    passed     66.02%
+ 100  Zalophus_californianus                 69.71%    failed      0.00%
+ 101  Halichoerus_grypus                     69.49%    failed      0.00%
+ 102  Leptonychotes_weddellii                69.84%    failed      0.00%
+ 103  Mirounga_leonina                       69.17%    failed      0.00%
+ 104  Pusa_hispida                           69.57%    failed      0.00%
+ 105  Pusa_sibirica                          69.53%    failed      0.00%
+ 106  Phoca_vitulina                         69.44%    failed      0.00%
+ 107  Inia_geoffrensis                       69.87%    failed      0.00%
+ 108  Globicephala_melas                     70.23%    failed      0.00%
+ 109  Orcinus_orca                           70.24%    failed      0.02%
+ 110  Stenella_attenuata                     70.23%    failed      0.00%
+ 111  Stenella_coeruleoalba                  70.24%    failed      0.01%
+ 112  Tursiops_truncatus                     70.23%    failed      0.03%
+ 113  Phocoena_phocoena                      70.24%    failed      3.93%
+ 114  Physeter_catodon                       70.16%    failed      0.00%
+ 115  Ziphius_cavirostris                    70.30%    failed      0.39%
+ 116  Eschrichtius_robustus                  70.19%    failed      0.00%
+ 117  Balaenoptera_borealis                  70.19%    failed      0.00%
+ 118  Balaenoptera_edeni                     70.19%    failed      0.00%
+ 119  Balaenoptera_physalus                  70.21%    failed      0.03%
+ 120  Balaenoptera_musculus                  70.21%    failed      0.00%
+ 121  Megaptera_novaeangliae                 70.21%    failed      0.00%
+ 122  Elephas_maximus                        69.30%    failed      0.52%
+ 123  Loxodonta_africana                     69.36%    failed      0.50%
+ 124  Equus_zebra                            70.23%    failed      0.00%
+ 125  Equus_grevyi                           70.21%    failed      0.00%
+ 126  Equus_asinus                           69.72%    failed      0.00%
+ 127  Equus_hemionus                         69.78%    failed      0.00%
+ 128  Equus_caballus                         69.74%    failed      0.00%
+ 129  Tapirus_indicus                        69.63%    failed      0.00%
+ 130  Diceros_bicornis                       70.19%    failed      0.00%
+ 131  Rhinoceros_unicornis                   69.43%    failed      0.00%
+ 132  Procavia_capensis                      69.59%    failed      0.00%
+ 133  Sus_scrofa                             69.82%    failed      0.00%
+ 134  Sus_scrofa_domesticus                  69.54%    failed      0.00%
+ 135  Pecari_tajacu                          69.41%    failed      0.00%
+ 136  Hippopotamus_amphibius                 70.20%    failed      0.00%
+ 137  Camelus_bactrianus                     69.74%    failed      0.00%
+ 138  Camelus_dromedarius                    69.77%    failed      0.00%
+ 139  Lama_guanicoe                          69.76%    passed      5.64%
+ 140  Vicugna_vicugna                        70.78%    failed      0.71%
+ 141  Lama_glama                             69.85%    passed      5.96%
+ 142  Alces_alces                            70.18%    failed      0.00%
+ 143  Capreolus_capreolus                    70.29%    failed      0.00%
+ 144  Cervus_elaphus                         70.29%    failed      0.00%
+ 145  Rangifer_tarandus                      70.28%    failed      0.00%
+ 146  Odocoileus_hemionus                    70.06%    failed      0.00%
+ 147  Hydropotes_inermis                     70.29%    failed      0.00%
+ 148  Muntiacus_reevesi                      70.29%    failed      0.00%
+ 149  Muntiacus_muntjak                      70.29%    failed      0.00%
+ 150  Antilocapra_americana                  70.30%    failed      0.00%
+ 151  Giraffa_camelopardalis                 70.15%    passed      6.36%
+ 152  Aepyceros_melampus                     70.17%    failed      0.00%
+ 153  Ammotragus_lervia                      69.98%    failed      0.00%
+ 154  Bison_bonasus                          70.34%    failed      0.29%
+ 155  Bos_gaurus                             70.31%    failed      0.89%
+ 156  Bos_javanicus                          70.32%    failed      4.15%
+ 157  Bos_primigenius                        70.32%    failed      3.26%
+ 158  Bos_taurus                             70.32%    failed      4.61%
+ 159  Bos_indicus                            70.32%    failed      2.35%
+ 160  Boselaphus_tragocamelus                70.35%    failed      0.02%
+ 161  Capra_aegagrus                         69.80%    failed      0.09%
+ 162  Capra_hircus                           69.77%    failed      0.14%
+ 163  Connochaetes_taurinus                  70.19%    failed      0.00%
+ 164  Damaliscus_lunatus                     70.17%    failed      0.01%
+ 165  Damaliscus_pygargus                    70.24%    failed      0.00%
+ 166  Tragelaphus_oryx                       70.22%    failed      0.47%
+ 167  Tragelaphus_strepsiceros               70.24%    failed      1.47%
+ 168  Tragelaphus_imberbis                   70.20%    passed     10.15%
+ 169  Oryx_gazella                           69.74%    failed      2.85%
+ 170  Kobus_ellipsiprymnus                   70.18%    failed      0.02%
+ 171  Capricornis_crispus                    70.11%    failed      0.00%
+ 172  Syncerus_caffer                        70.28%    failed      0.56%
+ 173  Manis_javanica                         69.89%    failed      0.00%
+ 174  Ochotona_princeps                      70.06%    failed      0.00%
+ 175  Lepus_capensis                         67.81%    failed      0.00%
+ 176  Lepus_europaeus                        67.79%    failed      0.00%
+ 177  Oryctolagus_cuniculus                  68.67%    failed      0.60%
+ 178  Cricetulus_griseus                     70.42%    failed      0.00%
+ 179  Cricetulus_longicaudatus               70.39%    failed      0.00%
+ 180  Mesocricetus_auratus                   70.46%    failed      0.00%
+ 181  Meriones_unguiculatus                  70.30%    failed      0.00%
+ 182  Acomys_cahirinus                       70.54%    failed      0.00%
+ 183  Mus_caroli                             70.37%    failed      0.00%
+ 184  Mus_spretus                            70.42%    failed      0.00%
+ 185  Mus_cervicolor                         70.38%    failed      0.00%
+ 186  Mus_cookii                             70.38%    failed      0.00%
+ 187  Rattus_leucopus                        70.40%    failed      0.00%
+ 188  Rattus_rattus                          70.38%    failed      0.00%
+ 189  Rattus_fuscipes                        70.39%    failed      0.00%
+ 190  Rattus_sordidus                        70.37%    failed      0.00%
+ 191  Rattus_tunneyi                         70.41%    failed      0.00%
+ 192  Rattus_villosissimus                   70.39%    failed      0.00%
+ 193  Cavia_porcellus                        69.48%    failed      0.00%
+ 194  Octodon_degus                          69.50%    failed      0.00%
+ 195  Thryonomys_swinderianus                69.80%    failed      0.00%
+ 196  Heterocephalus_glaber                  70.23%    failed      0.00%
+ 197  Lynx_lynx                              69.04%    failed      0.08%
+ 198  Micromys_minutus                       70.51%    failed      0.00%
+ 199  Hapalemur_griseus                      69.34%    failed      0.00%
+ 200  Monodelphis_domestica                  68.98%    failed      0.00%
+ 201  Nanger_granti                          70.25%    failed      0.60%
+ 202  Bubalus_depressicornis                 70.29%    failed      1.46%
+ 203  Balaena_mysticetus                     70.23%    failed      0.00%
+ 204  Caperea_marginata                      70.24%    failed      0.24%
+ 205  Lagenorhynchus_albirostris             70.22%    failed      0.01%
+ 206  Kogia_breviceps                        70.20%    failed      0.00%
+ 207  Mesoplodon_europaeus                   70.31%    failed      0.00%
+ 208  Artibeus_lituratus                     69.65%    failed      0.00%
+ 209  Anoura_caudifer                        69.94%    passed      7.49%
+ 210  Sturnira_tildae                        69.78%    failed      0.00%
+ 211  Choloepus_didactylus                   69.96%    failed      0.00%
+ 212  Saimiri_boliviensis                    70.08%    failed      0.01%
+ 213  Eulemur_fulvus_mayottensis             68.91%    failed      0.16%
+ 214  Panthera_uncia                         69.53%    passed      7.67%
+ 215  Martes_martes                          70.06%    failed      0.00%
+ 216  Ursus_maritimus                        69.09%    failed      0.00%
+ 217  Chaetophractus_villosus                69.49%    failed      0.02%
+ 218  Macroscelides_proboscideus             69.77%    failed      0.03%
+ 219  Arctocephalus_forsteri                 72.00%    failed      0.02%
+ 220  Hydrurga_leptonyx                      69.84%    failed      0.00%
+ 221  Dugong_dugon                           69.39%    failed      0.00%
+ 222  Vombatus_ursinus                       69.13%    failed      0.00%
+ 223  Ovis_ammon                             69.82%    failed      0.06%
+ 224  Axis_axis                              70.30%    failed      0.00%
+ 225  Dama_dama                              70.34%    failed      0.00%
+ 226  Vicugna_pacos                          69.75%    passed      7.17%
+ 227  Mephitis_mephitis                      69.96%    failed      0.00%
+ 228  Spilogale_putorius                     69.85%    failed      0.00%
+ 229  Taxidea_taxus                          70.16%    failed      0.00%
+ 230  Leontopithecus_rosalia                 69.35%    failed      0.00%
+ 231  Aotus_azarai                           69.93%    failed      0.00%
+ 232  Cacajao_calvus                         69.66%    failed      0.01%
+ 233  Propithecus_tattersalli                68.94%    failed      0.01%
+ 234  Eulemur_macaco_macaco                  68.85%    failed      0.03%
+ 235  Microcebus_murinus                     68.95%    failed      0.00%
+ 236  Galago_moholi                          69.76%    failed      0.00%
+ 237  Dactylomys_dactylinus                  69.76%    failed      0.00%
+ 238  Nannospalax_ehrenbergi                 70.19%    failed      0.00%
+ 239  Daubentonia_madagascariensis           69.81%    failed      0.00%
+ 240  Acinonyx_jubatus                       69.03%    passed     22.15%
+ 241  Leopardus_pardalis                     69.64%    passed      6.26%
+ 242  Zaglossus_bruijni                      70.27%    failed      0.00%
+ 243  Colobus_guereza                        69.76%    failed      0.00%
+ 244  Balaenoptera_bonaerensis               70.17%    failed      0.00%
+ 245  Rhyncholestes_raphanurus               69.62%    failed      0.00%
+ 246  Dromiciops_gliroides                   72.12%    failed      0.00%
+ 247  Propithecus_verreauxi                  68.93%    failed      0.08%
+ 248  Indri_indri                            68.94%    passed      5.83%
+ 249  Eulemur_mongoz                         69.70%    failed      0.33%
+ 250  Eulemur_rubriventer                    68.15%    failed      0.65%
+ 251  Proechimys_longicaudatus               69.45%    failed      0.00%
+ 252  Chinchilla_lanigera                    69.88%    failed      0.00%
+ 253  Rattus_exulans                         70.38%    failed      0.00%
+ 254  Capricornis_sumatraensis               70.13%    failed      0.03%
+ 255  Capricornis_swinhoei                   69.98%    failed      0.09%
+ 256  Rupicapra_rupicapra                    70.19%    failed      0.01%
+ 257  Naemorhedus_goral                      69.93%    failed      0.41%
+ 258  Oreamnos_americanus                    69.84%    failed      0.00%
+ 259  Saiga_tatarica                         70.25%    failed      0.00%
+ 260  Nyctereutes_procyonoides               69.64%    passed     10.61%
+ 261  Callorhinus_ursinus                    69.72%    failed      0.14%
+ 262  Eumetopias_jubatus                     69.78%    failed      0.00%
+ 263  Phocarctos_hookeri                     69.62%    failed      0.00%
+ 264  Neophocaena_phocaenoides               70.24%    failed      4.00%
+ 265  Petaurus_breviceps                     70.75%    failed      0.00%
+ 266  Rattus_tanezumi                        70.38%    failed      0.00%
+ 267  Cercopithecus_diana                    70.02%    failed      0.00%
+ 268  Cercopithecus_mitis                    70.01%    failed      0.00%
+ 269  Papio_ursinus                          70.04%    failed      0.00%
+ 270  Mustela_nivalis                        70.01%    passed     95.19%
+ 271  Mustela_sibirica                       69.92%    passed     70.91%
+ 272  Martes_melampus                        70.21%    failed      0.00%
+ 273  Martes_zibellina                       69.99%    failed      0.00%
+ 274  Mustela_erminea                        70.08%    failed      0.28%
+ 275  Crocidura_russula                      68.76%    failed      0.00%
+ 276  Prionailurus_bengalensis               69.66%    passed     24.75%
+ 277  Naemorhedus_caudatus                   70.00%    failed      0.12%
+ 278  Ovis_canadensis                        70.10%    failed      0.01%
+ 279  Ovibos_moschatus                       70.17%    failed      0.19%
+ 280  Hemitragus_jemlahicus                  69.64%    failed      0.00%
+ 281  Budorcas_taxicolor                     69.72%    failed      0.00%
+ 282  Hippotragus_equinus                    70.14%    failed      0.03%
+ 283  Hippotragus_niger                      70.02%    failed      0.70%
+ 284  Arctocephalus_pusillus                 69.75%    failed      0.00%
+ 285  Aotus_nancymaae                        70.09%    failed      0.00%
+ 286  Tupaia_belangeri                       69.57%    failed      3.58%
+ 287  Mammuthus_primigenius                  69.54%    failed      0.14%
+ 288  Cervus_nippon_taiouanus                70.14%    failed      0.00%
+ 289  Caenolestes_fuliginosus                69.79%    failed      0.00%
+ 290  Isoodon_macrourus                      69.39%    failed      0.00%
+ 291  Notoryctes_typhlops                    71.08%    failed      2.18%
+ 292  Perameles_gunnii                       72.10%    failed      0.00%
+ 293  Gazella_dorcas                         70.15%    failed      0.03%
+ 294  Globicephala_macrorhynchus             70.23%    failed      0.00%
+ 295  Distoechurus_pennatus                  69.54%    failed      0.00%
+ 296  Dactylopsila_trivirgata                70.83%    failed      0.00%
+ 297  Phascolarctos_cinereus                 70.29%    failed      0.00%
+ 298  Tarsipes_rostratus                     71.40%    failed      0.00%
+ 299  Onychomys_leucogaster                  70.26%    failed      0.00%
+ 300  Apodemus_agrarius                      70.46%    failed      0.00%
+ 301  Mammut_americanum                      70.08%    failed      1.06%
+ 302  Phoca_fasciata                         69.68%    failed      0.01%
+ 303  Phoca_groenlandica                     69.94%    failed      0.25%
+ 304  Phoca_largha                           69.66%    failed      0.00%
+ 305  Ursus_spelaeus                         69.52%    failed      0.00%
+ 306  Cystophora_cristata                    69.21%    failed      0.00%
+ 307  Erignathus_barbatus                    69.66%    failed      0.00%
+ 308  Oryx_leucoryx                          69.70%    failed      1.01%
+ 309  Saimiri_boliviensis_boliviensis        70.08%    failed      0.01%
+ 310  Monodon_monoceros                      70.24%    failed      0.00%
+ 311  Carollia_perspicillata                 69.64%    failed      0.00%
+ 312  Eulemur_fulvus_fulvus                  68.89%    failed      0.20%
+ 313  Macaca_tonkeana                        69.92%    failed      0.00%
+ 314  Glis_glis                              69.84%    failed      0.00%
+ 315  Phacochoerus_africanus                 69.63%    failed      0.00%
+ 316  Sus_barbatus                           70.06%    failed      0.00%
+ 317  Sorex_araneus                          69.32%    failed      0.00%
+ 318  Dendrohyrax_dorsalis                   69.86%    failed      0.00%
+ 319  Metachirus_nudicaudatus                71.15%    failed      0.00%
+ 320  Aotus_lemurinus                        69.88%    failed      0.01%
+ 321  Ictidomys_tridecemlineatus             70.10%    failed      0.00%
+ 322  Ctenomys_sociabilis                    69.09%    failed      0.00%
+ 323  Rucervus_duvaucelii                    70.31%    failed      0.00%
+ 324  Elaphurus_davidianus                   70.29%    failed      0.00%
+ 325  Mazama_americana                       70.07%    failed      0.00%
+ 326  Nasalis_larvatus                       69.90%    failed      0.00%
+ 327  Cynomys_ludovicianus                   70.09%    failed      0.00%
+ 328  Leopardus_tigrinus                     69.54%    failed      4.73%
+ 329  Leopardus_geoffroyi                    69.60%    passed     10.42%
+ 330  Lepus_americanus                       69.11%    failed      0.00%
+ 331  Capra_falconeri                        69.79%    failed      0.80%
+ 332  Gulo_gulo                              69.95%    failed      2.89%
+ 333  Capreolus_pygargus                     70.29%    failed      0.00%
+ 334  Mesoplodon_densirostris                70.31%    failed      0.00%
+ 335  Pontoporia_blainvillei                 69.86%    failed      0.05%
+ 336  Berardius_bairdii                      70.31%    failed      0.00%
+ 337  Hyperoodon_ampullatus                  70.31%    failed      0.00%
+ 338  Orcaella_brevirostris                  70.24%    failed      0.01%
+ 339  Platanista_minor                       70.35%    failed      0.00%
+ 340  Tamandua_tetradactyla                  70.22%    failed      0.00%
+ 341  Cabassous_unicinctus                   70.21%    failed      0.00%
+ 342  Hylomys_suillus                        72.11%    failed      0.00%
+ 343  Cephalophus_silvicultor                70.16%    failed      1.44%
+ 344  Myotis_myotis                          68.73%    failed      0.00%
+ 345  Nyctalus_noctula                       68.25%    failed      0.00%
+ 346  Jaculus_jaculus                        69.94%    failed      0.00%
+ 347  Callithrix_geoffroyi                   70.02%    failed      0.87%
+ 348  Mazama_gouazoupira                     70.29%    failed      0.00%
+ 349  Rhizomys_pruinosus                     69.89%    failed      0.00%
+ 350  Pygathrix_nemaeus                      71.90%    failed      0.00%
+ 351  Allenopithecus_nigroviridis            70.00%    failed      0.00%
+ 352  Trachypithecus_vetulus                 69.93%    failed      0.02%
+ 353  Trachypithecus_francoisi               69.93%    failed      0.00%
+ 354  Trachypithecus_obscurus                69.92%    failed      0.00%
+ 355  Macaca_nigra                           69.91%    failed      0.00%
+ 356  Macaca_silenus                         69.95%    failed      0.00%
+ 357  Macaca_thibetana                       69.96%    failed      0.00%
+ 358  Urocyon_cinereoargenteus               70.08%    failed      0.00%
+ 359  Mustela_frenata                        69.95%    passed      6.71%
+ 360  Sciurus_vulgaris                       70.02%    failed      0.00%
+ 361  Pteromys_volans                        70.00%    failed      0.00%
+ 362  Myrmecobius_fasciatus                  69.46%    failed      0.49%
+ 363  Hexaprotodon_liberiensis               70.22%    failed      0.00%
+ 364  Callithrix_penicillata                 70.49%    failed      3.11%
+ 365  Mus_musculus_molossinus                70.39%    failed      0.00%
+ 366  Axis_porcinus                          70.25%    failed      0.00%
+ 367  Cynopterus_brachyotis                  69.66%    failed      0.00%
+ 368  Eptesicus_serotinus                    69.71%    failed      0.00%
+ 369  Myotis_lucifugus                       69.05%    failed      0.00%
+ 370  Pteronotus_parnellii                   69.91%    failed      0.00%
+ 371  Addax_nasomaculatus                    69.57%    failed      0.51%
+ 372  Alcelaphus_buselaphus                  70.26%    failed      0.00%
+ 373  Antidorcas_marsupialis                 70.13%    failed      0.00%
+ 374  Antilope_cervicapra                    70.15%    failed      0.32%
+ 375  Beatragus_hunteri                      70.28%    failed      0.05%
+ 376  Connochaetes_gnou                      70.19%    failed      0.00%
+ 377  Gazella_subgutturosa                   70.15%    failed      0.02%
+ 378  Kobus_leche                            70.16%    failed      0.02%
+ 379  Oryx_dammah                            69.56%    failed      0.77%
+ 380  Ourebia_ourebi                         70.22%    failed      1.45%
+ 381  Pantholops_hodgsonii                   70.03%    failed      0.04%
+ 382  Pseudois_nayaur                        69.60%    failed      0.00%
+ 383  Raphicerus_campestris                  70.22%    failed      0.01%
+ 384  Pelea_capreolus                        69.87%    failed      0.24%
+ 385  Redunca_arundinum                      70.14%    failed      0.12%
+ 386  Redunca_fulvorufula                    70.16%    passed     10.69%
+ 387  Ovis_vignei                            69.67%    failed      0.06%
+ 388  Chlorocebus_pygerythrus                70.31%    failed      0.00%
+ 389  Chlorocebus_sabaeus                    69.96%    failed      0.00%
+ 390  Chlorocebus_tantalus                   70.27%    failed      0.00%
+ 391  Crocidura_beatus                       71.92%    failed      0.00%
+ 392  Crocidura_mindorus                     71.92%    failed      0.00%
+ 393  Felis_chaus                            69.75%    passed     49.36%
+ 394  Felis_margarita                        69.37%    passed     86.74%
+ 395  Felis_nigripes                         69.62%    passed     83.68%
+ 396  Leopardus_wiedii                       69.66%    passed     24.44%
+ 397  Lynx_canadensis                        69.73%    failed      0.52%
+ 398  Lynx_rufus                             69.02%    failed      2.32%
+ 399  Leopardus_guigna                       69.53%    passed     12.59%
+ 400  Prionailurus_rubiginosus               69.42%    passed     45.05%
+ 401  Prionailurus_viverrinus                69.62%    passed     80.69%
+ 402  Caracal_caracal                        69.38%    passed     37.22%
+ 403  Prionailurus_planiceps                 69.65%    passed     42.74%
+ 404  Leptailurus_serval                     69.65%    passed     13.46%
+ 405  Leopardus_colocolo                     69.76%    passed     14.13%
+ 406  Otocolobus_manul                       69.80%    passed      6.72%
+ 407  Pardofelis_marmorata                   69.43%    passed     39.40%
+ 408  Profelis_aurata                        69.44%    passed     20.19%
+ 409  Neofelis_nebulosa                      69.40%    failed      0.59%
+ 410  Catopuma_badia                         69.68%    passed     33.40%
+ 411  Catopuma_temminckii                    69.15%    passed     78.93%
+ 412  Rhinopithecus_bieti                    69.94%    failed      0.00%
+ 413  Rhinopithecus_roxellana                69.94%    failed      0.00%
+ 414  Nomascus_gabriellae                    70.07%    failed      0.00%
+ 415  Nomascus_leucogenys                    70.07%    failed      0.00%
+ 416  Plecotus_auritus                       69.30%    failed      0.00%
+ 417  Ctenomys_leucodon                      70.54%    failed      0.00%
+ 418  Spalacopus_cyanus                      69.43%    failed      0.00%
+ 419  Tympanoctomys_barrerae                 69.37%    failed      0.00%
+ 420  Sorex_unguiculatus                     68.93%    failed      0.09%
+ 421  Neomys_fodiens                         68.65%    failed      0.00%
+ 422  Sorex_tundrensis                       68.31%    failed      0.00%
+ 423  Episoriculus_caudatus                  68.89%    failed      0.00%
+ 424  Mogera_wogura                          69.46%    failed      0.00%
+ 425  Lepus_timidus                          67.83%    failed      0.00%
+ 426  Homo_sapiens_neanderthalensis          69.91%    failed      0.00%
+ 427  Lepus_townsendii                       67.88%    failed      0.00%
+ 428  Ozotoceros_bezoarticus                 70.29%    failed      0.00%
+ 429  Callosciurus_erythraeus                69.94%    failed      0.00%
+ 430  Tamias_sibiricus                       69.92%    failed      0.00%
+ 431  Lagorchestes_hirsutus                  69.32%    failed      0.00%
+ 432  Lagostrophus_fasciatus                 69.36%    failed      0.43%
+ 433  Rhinopithecus_avunculus                69.94%    failed      0.00%
+ 434  Trachypithecus_johnii                  69.95%    failed      0.00%
+ 435  Madoqua_kirkii                         70.09%    passed     52.67%
+ 436  Tragelaphus_angasii                    70.21%    passed      7.00%
+ 437  Tragelaphus_scriptus                   70.21%    failed      0.06%
+ 438  Neotragus_moschatus                    70.21%    failed      1.42%
+ 439  Oreotragus_oreotragus                  69.98%    failed      0.07%
+ 440  Nanger_dama                            70.25%    failed      1.76%
+ 441  Moschus_berezovskii                    70.29%    failed      0.00%
+ 442  Moschus_chrysogaster                   70.29%    failed      0.00%
+ 443  Moschus_moschiferus                    70.30%    failed      0.00%
+ 444  Chrysocyon_brachyurus                  69.56%    failed      0.00%
+ 445  Cuon_alpinus                           69.72%    failed      0.00%
+ 446  Vulpes_zerda                           69.70%    failed      0.30%
+ 447  Tragelaphus_eurycerus                  70.30%    failed      0.03%
+ 448  Tragelaphus_spekii                     70.19%    failed      0.16%
+ 449  Cephalophus_natalensis                 70.16%    failed      0.34%
+ 450  Gazella_bennettii                      70.15%    failed      0.00%
+ 451  Gazella_cuvieri                        70.16%    failed      0.03%
+ 452  Gazella_gazella                        70.12%    failed      0.04%
+ 453  Gazella_leptoceros                     70.14%    failed      0.04%
+ 454  Eudorcas_rufifrons                     70.18%    failed      0.01%
+ 455  Nanger_soemmerringii                   70.25%    failed      2.03%
+ 456  Gazella_spekei                         70.14%    failed      0.06%
+ 457  Litocranius_walleri                    70.14%    failed      0.00%
+ 458  Cephalophus_leucogaster                70.16%    failed      1.92%
+ 459  Myrmecophaga_tridactyla                70.03%    failed      0.00%
+ 460  Nandinia_binotata                      68.96%    failed      0.00%
+ 461  Muntiacus_crinifrons                   70.29%    failed      0.00%
+ 462  Bos_mutus                              70.35%    failed      0.11%
+ 463  Capra_caucasica                        69.80%    failed      0.19%
+ 464  Capra_ibex                             69.64%    failed      0.03%
+ 465  Capra_nubiana                          69.67%    failed      0.10%
+ 466  Capra_sibirica                         69.92%    failed      0.04%
+ 467  Rupicapra_pyrenaica                    70.14%    failed      0.08%
+ 468  Equus_hemionus_kulan                   70.24%    failed      0.00%
+ 469  Equus_zebra_hartmannae                 70.19%    failed      0.00%
+ 470  Manis_tetradactyla                     69.90%    failed      0.00%
+ 471  Tetracerus_quadricornis                70.31%    failed      0.00%
+ 472  Dipus_sagitta                          69.73%    failed      0.00%
+ 473  Mesoplodon_grayi                       70.31%    failed      0.00%
+ 474  Martes_flavigula                       69.94%    failed      1.24%
+ 475  Lophocebus_aterrimus                   69.91%    failed      0.00%
+ 476  Cercocebus_chrysogaster                69.94%    failed      0.00%
+ 477  Martes_pennanti                        70.41%    failed      0.02%
+ 478  Mustela_eversmannii                    70.10%    passed     82.33%
+ 479  Mustela_nigripes                       69.93%    passed     57.01%
+ 480  Macaca_cyclopis                        69.91%    failed      0.00%
+ 481  Presbytis_melalophos                   69.95%    failed      0.00%
+ 482  Lepilemur_ruficaudatus                 69.24%    failed      3.72%
+ 483  Microtus_ochrogaster                   70.41%    failed      0.25%
+ 484  Tursiops_aduncus                       70.24%    failed      0.06%
+ 485  Capra_pyrenaica                        69.92%    failed      0.05%
+ 486  Dasypus_kappleri                       69.78%    failed      0.00%
+ 487  Leggadina_lakedownensis                70.46%    failed      0.00%
+ 488  Pseudorca_crassidens                   70.22%    failed      0.00%
+ 489  Myodes_regulus                         70.25%    failed      0.03%
+ 490  Eothenomys_melanogaster                70.33%    failed      0.28%
+ 491  Propithecus_diadema                    68.97%    failed      0.00%
+ 492  Panthera_leo_persica                   69.45%    passed      9.95%
+ 493  Grampus_griseus                        70.23%    failed      0.05%
+ 494  Rattus_tiomanicus                      70.37%    failed      0.00%
+ 495  Leopoldamys_edwardsi                   70.42%    failed      0.07%
+ 496  Mus_famulus                            70.41%    failed      0.00%
+ 497  Niviventer_fulvescens                  70.40%    failed      0.00%
+ 498  Cyclopes_didactylus                    70.33%    failed      0.00%
+ 499  Cervus_canadensis_songaricus           70.17%    failed      0.00%
+ 500  Okapia_johnstoni                       70.17%    failed      0.00%
+ 501  Varecia_variegata_variegata            69.18%    failed      0.00%
+ 502  Semnopithecus_entellus                 69.97%    failed      0.00%
+ 503  Petaurista_alborufus                   70.02%    failed      0.08%
+ 504  Bubalus_bubalis                        70.28%    failed      0.52%
+ 505  Dicerorhinus_sumatrensis               70.09%    failed      0.00%
+ 506  Macaca_leonina                         69.03%    failed      0.00%
+ 507  Sminthopsis_douglasi                   69.96%    failed      0.00%
+ 508  Mustela_altaica                        69.99%    passed     80.75%
+ 509  Macrotis_lagotis                       72.23%    failed      0.00%
+ 510  Cervus_nippon_hortulorum               70.15%    failed      0.00%
+ 511  Marmota_himalayana                     70.13%    failed      0.00%
+ 512  Pteropus_scapulatus                    69.59%    failed      0.00%
+ 513  Viverricula_indica                     69.88%    failed      0.00%
+ 514  Equus_kiang                            70.25%    failed      0.00%
+ 515  Mystacina_tuberculata                  69.52%    failed      0.05%
+ 516  Hyaena_hyaena                          68.92%    failed      0.00%
+ 517  Cephalophus_dorsalis                   70.16%    failed      0.33%
+ 518  Pseudoryx_nghetinhensis                70.29%    failed      0.00%
+ 519  Loxodonta_cyclotis                     70.74%    failed      0.00%
+ 520  Cynomys_leucurus                       70.11%    failed      0.00%
+ 521  Spermophilus_dauricus                  70.01%    failed      0.00%
+ 522  Lepus_granatensis                      69.27%    failed      0.00%
+ 523  Microtus_kikuchii                      70.37%    failed      0.00%
+ 524  Papio_papio                            70.02%    failed      0.00%
+ 525  Hylopetes_phayrei                      69.97%    failed      0.00%
+ 526  Eozapus_setchuanus                     69.90%    failed      0.00%
+ 527  Lobodon_carcinophaga                   69.56%    failed      0.00%
+ 528  Rhinoceros_sondaicus                   70.18%    failed      0.00%
+ 529  Cephalorhynchus_heavisidii             70.26%    failed      0.01%
+ 530  Delphinus_capensis                     70.24%    failed      0.00%
+ 531  Feresa_attenuata                       70.23%    failed      0.00%
+ 532  Peponocephala_electra                  70.23%    failed      0.00%
+ 533  Sousa_chinensis                        70.23%    failed      0.01%
+ 534  Vespertilio_sinensis                   69.17%    failed      0.00%
+ 535  Pipistrellus_abramus                   69.16%    failed      0.00%
+ 536  Apodemus_peninsulae                    70.45%    failed      0.00%
+ 537  Urotrichus_talpoides                   69.29%    failed      0.00%
+ 538  Akodon_montensis                       70.25%    failed      0.00%
+ 539  Muntiacus_vuquangensis                 70.28%    failed      0.00%
+ 540  Elaphodus_cephalophus                  70.31%    failed      0.00%
+ 541  Myotis_brandtii                        68.27%    failed      0.00%
+ 542  Mogera_robusta                         69.45%    failed      0.00%
+ 543  Lepus_sinensis                         68.32%    failed      0.00%
+ 544  Pseudois_schaeferi                     69.73%    failed      0.00%
+ 545  Lipotes_vexillifer                     70.22%    failed      0.00%
+ 546  Sylvicapra_grimmia                     70.14%    failed      0.11%
+ 547  Aotus_azarai_azarai                    69.87%    failed      0.00%
+ 548  Avahi_laniger                          69.51%    failed      0.00%
+ 549  Trachypithecus_cristatus               69.92%    failed      0.00%
+ 550  Pteropus_dasymallus                    69.66%    failed      0.00%
+ 551  Anourosorex_squamipes                  68.90%    failed      0.00%
+ 552  Cephalophus_adersi                     70.15%    failed      0.04%
+ 553  Cephalophus_callipygus                 70.16%    failed      0.21%
+ 554  Cephalophus_jentinki                   70.23%    failed      0.86%
+ 555  Cephalophus_nigrifrons                 70.20%    failed      0.14%
+ 556  Cephalophus_ogilbyi                    70.26%    failed      0.24%
+ 557  Cephalophus_rufilatus                  70.16%    failed      0.08%
+ 558  Cephalophus_spadix                     70.15%    failed      4.52%
+ 559  Apodemus_chevrieri                     70.39%    failed      0.00%
+ 560  Apodemus_draco                         70.42%    failed      0.00%
+ 561  Ochotona_curzoniae                     68.88%    failed      0.00%
+ 562  Pteropus_vampyrus                      69.93%    failed      0.00%
+ 563  Nannospalax_judaei                     70.20%    failed      0.00%
+ 564  Ochotona_collaris                      69.18%    failed      0.00%
+ 565  Rhinophylla_pumilio                    69.72%    failed      0.00%
+ 566  Arctonyx_collaris                      70.06%    failed      0.01%
+ 567  Dama_mesopotamica                      70.29%    failed      0.00%
+ 568  Manis_pentadactyla                     69.89%    failed      0.00%
+ 569  Euphractus_sexcinctus                  69.97%    failed      0.00%
+ 570  Condylura_cristata                     69.65%    failed      0.00%
+ 571  Chalinolobus_tuberculatus              69.45%    failed      0.00%
+ 572  Myospalax_psilurus                     70.28%    failed      0.00%
+ 573  Rhizomys_sinensis                      69.91%    failed      0.00%
+ 574  Eospalax_rothschildi                   70.25%    failed      0.00%
+ 575  Micronycteris_megalotis                69.87%    failed      0.00%
+ 576  Vampyrum_spectrum                      69.78%    failed      0.00%
+ 577  Episoriculus_fumidus                   68.23%    failed      0.00%
+ 578  Cervus_nippon_centralis                69.73%    failed      0.00%
+ 579  Myotis_ikonnikovi                      69.88%    failed      0.00%
+ 580  Procapra_przewalskii                   69.94%    failed      0.00%
+ 581  Procapra_gutturosa                     69.94%    failed      0.00%
+ 582  Myotis_muricola                        68.71%    failed      0.00%
+ 583  Sus_verrucosus                         70.07%    failed      0.00%
+ 584  Rhinolophus_pumilus                    69.36%    failed      0.00%
+ 585  Eubalaena_australis                    70.24%    failed      0.00%
+ 586  Arctocephalus_townsendi                69.90%    failed      0.01%
+ 587  Neophoca_cinerea                       69.60%    failed      0.01%
+ 588  Echinosorex_gymnura                    68.96%    failed      0.00%
+ 589  Cervus_nippon_sichuanicus              70.16%    failed      0.00%
+ 590  Pudu_puda                              70.32%    failed      0.00%
+ 591  Spalax_carmeli                         70.19%    failed      0.00%
+ 592  Echymipera_rufescens_australis         70.00%    failed      0.00%
+ 593  Piliocolobus_badius                    69.86%    failed      0.00%
+ 594  Trachypithecus_pileatus                69.98%    failed      0.00%
+ 595  Crocidura_lasiura                      68.46%    failed      0.00%
+ 596  Crocidura_attenuata                    68.15%    failed      0.00%
+ 597  Rhinolophus_monoceros                  69.39%    failed      0.00%
+ 598  Simias_concolor                        69.92%    failed      0.00%
+ 599  Tonatia_saurophila                     69.79%    failed      0.00%
+ 600  Sapajus_xanthosternos                  69.98%    failed      0.00%
+ 601  Phalanger_vestitus                     72.17%    failed      0.00%
+ 602  Uropsilus_soricipes                    69.89%    failed      0.00%
+ 603  Crocidura_shantungensis                68.83%    failed      0.00%
+ 604  Zaedyus_pichiy                         69.92%    failed      0.00%
+ 605  Tolypeutes_matacus                     69.16%    failed      0.00%
+ 606  Tolypeutes_tricinctus                  68.83%    failed      0.00%
+ 607  Priodontes_maximus                     70.05%    failed      0.00%
+ 608  Chrysochloris_asiatica                 69.75%    failed      0.00%
+ 609  Megaladapis_edwardsi                   69.64%    failed      4.17%
+ 610  Mus_fragilicauda                       70.37%    failed      0.00%
+ 611  Hipposideros_armiger                   69.51%    failed      0.00%
+ 612  Myotis_macrodactylus                   68.10%    failed      0.00%
+ 613  Murina_leucogaster                     69.44%    passed      8.57%
+ 614  Murina_ussuriensis                     68.60%    failed      0.00%
+ 615  Rhinolophus_rex                        69.40%    failed      0.00%
+ 616  Neophocaena_asiaeorientalis            70.24%    failed      3.03%
+ 617  Coendou_insidiosus                     69.90%    failed      0.00%
+ 618  Meles_anakuma                          70.22%    passed     10.01%
+ 619  Nannospalax_golani                     70.21%    failed      0.00%
+ 620  Lynx_pardinus                          69.47%    failed      2.31%
+ 621  Thylamys_elegans                       71.93%    failed      0.00%
+ 622  Rhinolophus_macrotis                   69.40%    failed      0.00%
+ 623  Chiropotes_albinasus                   69.65%    failed      0.00%
+ 624  Galemys_pyrenaicus                     70.01%    failed      0.00%
+ 625  Plecturocebus_cupreus                  69.94%    failed      0.00%
+ 626  Melogale_moschata                      69.87%    failed      0.06%
+ 627  Genetta_servalina                      69.23%    failed      2.62%
+ 628  Mungotictis_decemlineata               69.29%    failed      0.00%
+ 629  Prionodon_pardicolor                   69.63%    failed      0.12%
+ 630  Papio_kindae                           70.02%    failed      0.00%
+ 631  Cheracebus_lugens                      69.68%    failed      0.00%
+ 632  Myospalax_aspalax                      70.14%    failed      0.00%
+ 633  Apodemus_latronum                      70.41%    failed      0.00%
+ 634  Hemiechinus_auritus                    68.61%    failed      0.00%
+ 635  Pseudomys_chapmani                     70.49%    failed      0.00%
+ 636  Coelodonta_antiquitatis                70.14%    failed      0.00%
+ 637  Cervus_nippon_yesoensis                69.95%    failed      0.00%
+ 638  Rhinopithecus_brelichi                 69.93%    failed      0.00%
+ 639  Myotis_davidii                         68.16%    failed      0.00%
+ 640  Myotis_formosus                        68.83%    failed      0.00%
+ 641  Tlacuatzin_canescens                   70.10%    failed      0.00%
+ 642  Dremomys_rufigenis                     69.95%    failed      0.00%
+ 643  Exilisciurus_exilis                    70.47%    failed      2.82%
+ 644  Lariscus_insignis                      70.47%    failed      0.00%
+ 645  Tamiops_swinhoei                       70.00%    failed      0.00%
+ 646  Ratufa_bicolor                         69.91%    failed      0.03%
+ 647  Bradypus_torquatus                     69.64%    failed      0.00%
+ 648  Plecturocebus_donacophilus             69.91%    failed      0.03%
+ 649  Plecotus_macrobullaris                 69.43%    failed      0.00%
+ 650  Canis_lupus_chanco                     69.54%    failed      0.09%
+ 651  Blastocerus_dichotomus                 70.28%    failed      0.00%
+ 652  Niviventer_confucianus                 70.43%    failed      0.00%
+ 653  Panthera_tigris_amoyensis              69.12%    failed      1.23%
+ 654  Mus_terricolor                         70.37%    failed      0.00%
+ 655  Petaurista_hainana                     70.02%    failed      0.15%
+ 656  Balaenoptera_omurai                    70.20%    failed      0.00%
+ 657  Balaenoptera_brydei                    70.19%    failed      0.00%
+ 658  Muntiacus_reevesi_micrurus             70.29%    failed      0.00%
+ 659  Lepus_coreanus                         68.26%    failed      0.00%
+ 660  Lasiurus_borealis                      69.03%    failed      0.00%
+ 661  Pipistrellus_coromandra                68.84%    failed      0.00%
+ 662  Eothenomys_miletus                     70.31%    failed      0.00%
+ 663  Nycticebus_bengalensis                 69.60%    passed      6.60%
+ 664  Meriones_meridianus                    70.25%    failed      0.00%
+ 665  Ursus_thibetanus_mupinensis            69.36%    failed      0.00%
+ 666  Ursus_thibetanus_ussuricus             69.44%    failed      0.00%
+ 667  Lophostoma_silvicolum                  69.73%    failed      0.00%
+ 668  Bison_priscus                          70.36%    failed      0.15%
+ 669  Nectogale_elegans                      68.28%    failed      0.00%
+ 670  Episoriculus_macrurus                  69.22%    failed      0.00%
+ 671  Sorex_cylindricauda                    68.77%    failed      0.00%
+ 672  Trachypithecus_germaini                69.93%    failed      0.00%
+ 673  Mesoplodon_ginkgodens                  70.32%    failed      0.00%
+ 674  Mustela_kathiah                        69.93%    failed      2.26%
+ 675  Sus_celebensis                         70.06%    failed      0.00%
+ 676  Potamochoerus_porcus                   69.68%    failed      0.12%
+ 677  Lepus_hainanus                         69.76%    failed      0.01%
+ 678  Chiropotes_israelita                   69.72%    failed      0.00%
+ 679  Pteronotus_rubiginosus                 69.82%    failed      0.00%
+ 680  Lepus_tolai                            68.26%    failed      0.00%
+ 681  Meriones_libycus                       70.32%    failed      0.01%
+ 682  Loris_lydekkerianus                    69.50%    failed      0.00%
+ 683  Prionailurus_bengalensis_euptilurus    69.14%    passed     26.28%
+ 684  Eubalaena_japonica                     70.23%    failed      0.00%
+ 685  Manis_temminckii                       69.92%    failed      0.00%
+ 686  Taurotragus_derbianus                  70.21%    failed      2.28%
+ 687  Sus_scrofa_taivanus                    70.07%    failed      0.00%
+ 688  Pygathrix_nigripes                     69.96%    failed      0.00%
+ 689  Microtus_fortis_fortis                 70.37%    failed      0.00%
+ 690  Sus_cebifrons                          70.08%    failed      0.00%
+ 691  Tscherskia_triton                      70.05%    failed      0.00%
+ 692  Hemitragus_jayakari                    70.11%    failed      0.00%
+ 693  Cervus_nippon_yakushimae               70.14%    failed      0.00%
+ 694  Rhinolophus_luctus                     69.53%    failed      0.00%
+ 695  Chaetophractus_vellerosus              69.85%    failed      0.00%
+ 696  Laonastes_aenigmamus                   70.27%    failed      0.00%
+ 697  Oryx_beisa                             70.00%    failed      0.79%
+ 698  Hydropotes_inermis_argyropus           70.29%    failed      0.00%
+ 699  Niviventer_excelsior                   70.39%    failed      0.00%
+ 700  Rattus_praetor                         70.40%    failed      0.00%
+ 701  Manis_tricuspis                        69.90%    failed      0.00%
+ 702  Hippocamelus_antisensis                70.19%    failed      0.00%
+ 703  Epomophorus_gambianus                  69.66%    failed      0.00%
+ 704  Procolobus_verus                       69.84%    failed      0.02%
+ 705  Propithecus_coquereli                  68.93%    failed      0.01%
+ 706  Crocidura_orientalis                   71.93%    failed      0.00%
+ 707  Myotis_bombinus                        68.89%    failed      0.00%
+ 708  Mazama_nemorivaga                      70.28%    failed      0.00%
+ 709  Lasiopodomys_mandarinus                70.25%    failed      3.01%
+ 710  Rusa_unicolor_swinhoei                 70.02%    failed      0.00%
+ 711  Ursus_thibetanus_formosanus            69.04%    failed      0.00%
+ 712  Camelus_ferus                          69.70%    failed      0.00%
+ 713  Ailurus_fulgens_styani                 70.26%    failed      0.00%
+ 714  Ursus_thibetanus_thibetanus            69.06%    failed      0.00%
+ 715  Canis_lupus_lupus                      69.56%    failed      0.25%
+ 716  Myodes_glareolus                       70.29%    failed      0.16%
+ 717  Tarsius_dentatus                       69.18%    failed      0.03%
+ 718  Chlamyphorus_truncatus                 70.49%    failed      0.00%
+ 719  Neovison_vison                         69.93%    failed      0.12%
+ 720  Bandicota_indica                       70.34%    failed      0.00%
+ 721  Crocidura_grayi                        71.92%    failed      0.00%
+ 722  Chlorocebus_cynosuros                  70.33%    failed      0.00%
+ 723  Ovis_orientalis                        69.82%    failed      0.06%
+ 724  Rhinolophus_formosae                   69.27%    failed      0.00%
+ 725  Rattus_lutreolus                       70.40%    failed      0.00%
+ 726  Rattus_niobe                           70.39%    failed      0.00%
+ 727  Eremitalpa_granti                      69.84%    failed      0.00%
+ 728  Galeopterus_variegatus                 69.58%    failed      0.00%
+ 729  Vulpes_lagopus                         69.74%    failed      0.18%
+ 730  Cervus_nippon_kopschi                  70.16%    failed      0.00%
+ 731  Myotis_petax                           68.58%    failed      0.00%
+ 732  Myodes_rufocanus                       70.05%    failed      0.09%
+ 733  Microtus_levis                         70.42%    passed     34.85%
+ 734  Propithecus_edwardsi                   68.94%    failed      0.01%
+ 735  Arctodus_simus                         70.28%    passed      6.16%
+ 736  Canis_lupus_laniger                    69.62%    failed      0.12%
+ 737  Vulpes_ferrilata                       69.72%    failed      0.02%
+ 738  Naemorhedus_griseus                    70.12%    failed      1.25%
+ 739  Proedromys_liangshanensis              70.40%    failed      0.00%
+ 740  Eothenomys_chinensis                   70.28%    failed      0.19%
+ 741  Tarsius_lariang                        69.18%    failed      0.01%
+ 742  Bradypus_pygmaeus                      69.48%    failed      0.00%
+ 743  Hyemoschus_aquaticus                   70.53%    passed     11.85%
+ 744  Orcaella_heinsohni                     70.23%    failed      0.00%
+ 745  Crocidura_negrina                      71.93%    failed      0.00%
+ 746  Crocidura_panayensis                   71.92%    failed      0.00%
+ 747  Crocidura_palawanensis                 71.92%    failed      0.00%
+ 748  Pusa_caspica                           69.60%    failed      0.00%
+ 749  Leopardus_jacobita                     69.83%    passed      9.68%
+ 750  Apodemus_chejuensis                    70.46%    failed      0.00%
+ 751  Lepilemur_hubbardorum                  69.38%    failed      2.39%
+ 752  Neodon_irene                           70.27%    failed      2.96%
+ 753  Eulemur_rufus                          70.43%    failed      0.04%
+ 754  Callithrix_kuhlii                      70.03%    failed      0.45%
+ 755  Cercopithecus_albogularis              69.95%    failed      0.00%
+ 756  Trachypithecus_hatinhensis             69.94%    failed      0.00%
+ 757  Fukomys_damarensis                     70.26%    failed      0.00%
+ 758  Philantomba_maxwellii                  70.14%    failed      0.52%
+ 759  Philantomba_monticola                  70.12%    failed      0.05%
+ 760  Saimiri_oerstedii_citrinellus          70.08%    failed      0.04%
+ 761  Neotetracus_sinensis                   69.15%    failed      0.00%
+ 762  Euchoreutes_naso                       69.66%    failed      0.26%
+ 763  Tarsius_wallacei                       69.20%    failed      0.01%
+ 764  Calyptophractus_retusus                70.57%    failed      0.00%
+ 765  Hypsugo_alaschanicus                   68.58%    failed      0.00%
+ 766  Nannospalax_galili                     70.19%    failed      0.00%
+ 767  Mammuthus_columbi                      70.12%    failed      0.01%
+ 768  Dorcatragus_megalotis                  70.25%    failed      0.00%
+ 769  Madoqua_saltiana                       70.21%    failed      3.51%
+ 770  Stylodipus_telum                       69.67%    failed      0.01%
+ 771  Trachypithecus_shortridgei             69.98%    failed      0.00%
+ 772  Tamiops_maritimus                      69.99%    failed      0.00%
+ 773  Capricornis_milneedwardsii             70.13%    failed      0.02%
+ 774  Rhinolophus_ferrumequinum_korai        69.41%    failed      0.00%
+ 775  Tursiops_australis                     70.23%    failed      0.06%
+ 776  Mazama_rufina                          70.16%    failed      0.00%
+ 777  Naemorhedus_baileyi                    70.13%    failed      0.14%
+ 778  Neotragus_batesi                       70.23%    failed      0.00%
+ 779  Przewalskium_albirostris               70.07%    failed      0.00%
+ 780  Pudu_mephistophiles                    70.16%    failed      0.00%
+ 781  Rucervus_eldii                         70.29%    failed      0.00%
+ 782  Rusa_alfredi                           70.29%    failed      0.00%
+ 783  Rusa_timorensis                        70.15%    failed      0.00%
+ 784  Tragulus_kanchil                       70.33%    failed      0.03%
+ 785  Gazella_erlangeri                      70.15%    failed      0.02%
+ 786  Blarinella_quadraticauda               69.09%    failed      0.00%
+ 787  Sicista_concolor                       70.04%    failed      0.00%
+ 788  Rhinopithecus_strykeri                 69.94%    failed      0.00%
+ 789  Rhinolophus_ferrumequinum_quelpartis   69.36%    failed      0.00%
+ 790  Equus_ovodovi                          70.63%    failed      0.00%
+ 791  Moschus_anhuiensis                     70.31%    failed      0.00%
+ 792  Scapanulus_oweni                       69.44%    failed      0.00%
+ 793  Prolemur_simus                         69.55%    failed      0.00%
+ 794  Wiedomys_cerradensis                   70.32%    failed      0.00%
+ 795  Crocidura_ninoyi                       71.93%    failed      0.00%
+ 796  Homo_heidelbergensis                   70.39%    failed      0.00%
+ 797  Palaeopropithecus_ingens               69.39%    passed     17.68%
+ 798  Cricetulus_kamensis                    70.45%    failed      0.00%
+ 799  Puma_yagouaroundi                      69.66%    passed     19.62%
+ 800  Callosciurus_adamsi                    71.80%    failed      0.00%
+ 801  Dasypus_septemcinctus                  69.70%    failed      0.00%
+ 802  Canis_anthus                           69.63%    failed      0.01%
+ 803  Cabassous_chacoensis                   70.43%    failed      0.00%
+ 804  Cabassous_tatouay                      69.78%    failed      0.00%
+ 805  Cabassous_centralis                    68.91%    failed      0.00%
+ 806  Dasypus_sabanicola                     69.24%    failed      0.00%
+ 807  Dasypus_yepesi                         69.30%    failed      0.00%
+ 808  Dasypus_pilosus                        69.04%    failed      0.00%
+ 809  Dasypus_hybridus                       69.10%    failed      0.00%
+ 810  Carlito_syrichta                       69.11%    failed      0.17%
+WARNING: 810 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                  69.88%  753 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 5.783 seconds
+
+NOTE: 4149 MB RAM (4 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+3 trees examined
+Threads: 1 / Time: 23.773 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -7376200
+Threads: 2 / Time: 13.401 sec / Speedup: 1.774 / Efficiency: 89% / LogL: -7376200
+Threads: 3 / Time: 11.321 sec / Speedup: 2.100 / Efficiency: 70% / LogL: -7376200
+Threads: 4 / Time: 9.834 sec / Speedup: 2.417 / Efficiency: 60% / LogL: -7376200
+Threads: 5 / Time: 8.100 sec / Speedup: 2.935 / Efficiency: 59% / LogL: -7376200
+Threads: 6 / Time: 7.736 sec / Speedup: 3.073 / Efficiency: 51% / LogL: -7376200
+Threads: 7 / Time: 7.427 sec / Speedup: 3.201 / Efficiency: 46% / LogL: -7376200
+BEST NUMBER OF THREADS: 5
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4567250.147
+2. Current log-likelihood: -3760727.879
+3. Current log-likelihood: -3720866.573
+4. Current log-likelihood: -3719460.589
+5. Current log-likelihood: -3719373.675
+6. Current log-likelihood: -3719366.531
+7. Current log-likelihood: -3719365.020
+8. Current log-likelihood: -3719364.886
+Optimal log-likelihood: -3719364.788
+Rate parameters:  A-C: 1.91666  A-G: 8.66337  A-T: 2.06773  C-G: 0.60730  C-T: 14.70629  G-T: 1.00000
+Base frequencies:  A: 0.325  C: 0.260  G: 0.140  T: 0.275
+Site proportion and rates:  (0.195,0.018) (0.127,0.215) (0.224,0.753) (0.454,1.763)
+Parameters optimization took 8 rounds (427.749 sec)
+Computing ML distances based on estimated model parameters... 492.268 sec
+Computing BIONJ tree...
+0.496 seconds
+Log-likelihood of BIONJ tree: -3722619.874
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 618.370 second
+Computing log-likelihood of 98 initial trees ... 310.638 seconds
+Current best score: -3719364.788
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3716475.236
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -3716069.151
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -3716005.526
+Iteration 10 / LogL: -3716068.805 / Time: 1h:40m:41s
+Iteration 20 / LogL: -3716096.814 / Time: 1h:48m:59s
+Finish initializing candidate tree set (20)
+Current best tree score: -3716005.526 / CPU time: 5901.608
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -3715914.307
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -3715871.225
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -3715826.994
+Iteration 30 / LogL: -3715871.540 / Time: 2h:1m:26s (6h:41m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -3715819.975
+Iteration 40 / LogL: -3716019.000 / Time: 2h:11m:18s (5h:22m:56s left)
+Iteration 50 / LogL: -3715832.823 / Time: 2h:20m:1s (4h:5m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -3715809.364
+Iteration 60 / LogL: -3715809.364 / Time: 2h:29m:57s (4h:13m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -3715784.969
+Iteration 70 / LogL: -3715849.040 / Time: 2h:39m:27s (3h:46m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -3715755.021
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 78: -3715749.323
+Iteration 80 / LogL: -3715781.563 / Time: 2h:50m:4s (3h:30m:50s left)
+Iteration 90 / LogL: -3715861.087 / Time: 2h:58m:51s (2h:56m:45s left)
+Iteration 100 / LogL: -3715816.275 / Time: 3h:7m:41s (2h:27m:47s left)
+Iteration 110 / LogL: -3715902.635 / Time: 3h:16m:24s (2h:2m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 111: -3715746.467
+Iteration 120 / LogL: -3715959.830 / Time: 3h:26m:32s (2h:37m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 122: -3715739.384
+Iteration 130 / LogL: -3715794.171 / Time: 3h:35m:26s (2h:33m:34s left)
+Iteration 140 / LogL: -3715793.714 / Time: 3h:44m:20s (2h:12m:17s left)
+Iteration 150 / LogL: -3715966.392 / Time: 3h:53m:9s (1h:52m:36s left)
+Iteration 160 / LogL: -3715859.782 / Time: 4h:2m:3s (1h:34m:20s left)
+Iteration 170 / LogL: -3715787.621 / Time: 4h:10m:47s (1h:17m:8s left)
+Iteration 180 / LogL: -3715764.899 / Time: 4h:19m:12s (1h:0m:47s left)
+Iteration 190 / LogL: -3716023.627 / Time: 4h:27m:52s (0h:45m:20s left)
+Iteration 200 / LogL: -3715773.899 / Time: 4h:36m:39s (0h:30m:34s left)
+Iteration 210 / LogL: -3716712.445 / Time: 4h:45m:45s (0h:16m:24s left)
+Iteration 220 / LogL: -3715818.587 / Time: 4h:54m:27s (0h:2m:41s left)
+TREE SEARCH COMPLETED AFTER 223 ITERATIONS / Time: 4h:57m:13s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3715739.384
+Optimal log-likelihood: -3715739.382
+Rate parameters:  A-C: 1.88839  A-G: 8.67127  A-T: 2.05215  C-G: 0.60285  C-T: 14.80014  G-T: 1.00000
+Base frequencies:  A: 0.325  C: 0.260  G: 0.140  T: 0.275
+Site proportion and rates:  (0.185,0.011) (0.130,0.191) (0.230,0.730) (0.455,1.769)
+Parameters optimization took 1 rounds (16.545 sec)
+BEST SCORE FOUND : -3715739.382
+Total tree length: 141.558
+
+Total number of iterations: 223
+CPU time used for tree search: 83391.395 sec (23h:9m:51s)
+Wall-clock time used for tree search: 17195.496 sec (4h:46m:35s)
+Total CPU time used: 86457.124 sec (24h:0m:57s)
+Total wall-clock time used: 17850.226 sec (4h:57m:30s)
+
+Analysis results written to: 
+  IQ-TREE report:                clust.res.iqtree
+  Maximum-likelihood tree:       clust.res.treefile
+  Likelihood distances:          clust.res.mldist
+  Screen log file:               clust.res.log
+
+Date and Time: Thu Oct  6 02:21:22 2022

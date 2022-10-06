@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:15:16
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Gazella_erlangeri.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Gazella_erlangeri.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Gazella_erlangeri.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Gazella_erlangeri     from: 1   to: 16434
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                 
+  16186   16257       +      20     24      3     80.6 aggcacggatatgacagttaatgg                  
+   3238    3417       +      20     36      5     65.6 caccagaactagtatcattattctttacagcagaag      
+   4091    4216       +      20     42      3     74.6 caacagcctcaatactattaactatagccgttgttattaaac
+
+#---------------------------------------
+#---------------------------------------

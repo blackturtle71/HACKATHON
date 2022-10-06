@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 12:59:44
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Phoca_groenlandica.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Phoca_groenlandica.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Phoca_groenlandica.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Phoca_groenlandica     from: 1   to: 16551
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus   
+  16121   16228       +      96     12      9    100.0 acgtacacgtac
+  13911   14078       +      22     12     14     60.1 aataacaaaaac
+
+#---------------------------------------
+#---------------------------------------

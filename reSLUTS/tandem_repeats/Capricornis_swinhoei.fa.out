@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 12:59:19
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Capricornis_swinhoei.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Capricornis_swinhoei.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Capricornis_swinhoei.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Capricornis_swinhoei     from: 1   to: 16524
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                   
+  15696   15847       +      66     76      2     96.7 gtacataaatattaatgtaataaagacataatatgtattaagtacattaaatgattttcctcatgcatataagcaa
+   3246    3425       +      24     36      5     66.7 agaactagtatcattattcttcacagcagaagacgc                                        
+   4056    4223       +      22     42      4     69.0 cagcctcaatactattaactatagctctcattatcaaactaa                                  
+
+#---------------------------------------
+#---------------------------------------

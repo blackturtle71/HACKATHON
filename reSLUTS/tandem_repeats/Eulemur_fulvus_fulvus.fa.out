@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:00:57
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Eulemur_fulvus_fulvus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Eulemur_fulvus_fulvus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Eulemur_fulvus_fulvus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Eulemur_fulvus_fulvus     from: 1   to: 17126
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                   
+  16280   16537       +     236      6     43     96.9 acatgc                                                                      
+  16542   16693       +      74     76      2     99.3 gcatgcacatgcacatgcacatgcacatgcacatgcacatgcacatgcacatgcacatgcacatgcacatgcacac
+
+#---------------------------------------
+#---------------------------------------

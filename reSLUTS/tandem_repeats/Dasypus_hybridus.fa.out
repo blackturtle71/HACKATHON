@@ -1,0 +1,35 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:11:37
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Dasypus_hybridus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Dasypus_hybridus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Dasypus_hybridus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Dasypus_hybridus     from: 1   to: 17013
+# HitCount: 5
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  15527   15846       +     170     80      4     89.1 catacatctatttaccccatacatatcattatatactaactattattaatcttacatagcacatcctatgtataatcaca
+  16283   16390       +     100      6     18     99.1 cgcata                                                                          
+  16851   16982       +      46     66      2     92.4 tttttcactgaaaaaatagaataaaattcacacatttaaattttatcgtgatttttttttaatttt              
+  16588   16785       +      44     66      3     77.8 ttaacgagatttttttttattttttttttcactgaaaaaatagaattaaattcacatttaaaaatt              
+   4887    4949       +      22     21      3     84.1 tcatccccctatcaccaatac                                                           
+
+#---------------------------------------
+#---------------------------------------

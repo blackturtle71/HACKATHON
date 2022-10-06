@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:00:55
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Cheirogaleus_medius.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Cheirogaleus_medius.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Cheirogaleus_medius.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Cheirogaleus_medius     from: 1   to: 16804
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                   
+  11701   11772       +      64      8      9    100.0 aactttta                                    
+  13630   13673       +      22     22      2    100.0 tcccacttttaattatataatc                      
+  16512   16643       +      20     44      3     74.2 ttattttacaattattaaccccacaaaaaacactacaaaattca
+
+#---------------------------------------
+#---------------------------------------

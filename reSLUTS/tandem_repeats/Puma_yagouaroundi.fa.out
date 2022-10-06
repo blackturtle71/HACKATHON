@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:04:26
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Puma_yagouaroundi.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Puma_yagouaroundi.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Puma_yagouaroundi.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Puma_yagouaroundi     from: 1   to: 16700
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+    247     390       +      86      6     24     81.9 gtacac                                                                          
+  16292   16451       +      44     80      2     88.8 actatgtatatcgtgcattaactgctagtccccatgaatattaagcatgtacagtagtttatatatattacataagacat
+
+#---------------------------------------
+#---------------------------------------

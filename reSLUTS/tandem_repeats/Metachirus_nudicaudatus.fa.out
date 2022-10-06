@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:14:38
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Metachirus_nudicaudatus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Metachirus_nudicaudatus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Metachirus_nudicaudatus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Metachirus_nudicaudatus     from: 1   to: 15882
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                 
+  15584   15635       +      24     26      2     98.1 atattcataattatactagatacatt
+  13856   13939       +      21     21      4     75.0 tatctcctaaacctactaata     
+
+#---------------------------------------
+#---------------------------------------

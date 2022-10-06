@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:06:15
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Elaphodus_cephalophus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Elaphodus_cephalophus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Elaphodus_cephalophus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Elaphodus_cephalophus     from: 1   to: 16347
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

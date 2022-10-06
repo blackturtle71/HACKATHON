@@ -1,0 +1,39 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:09:23
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Thylacinus_cynocephalus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Thylacinus_cynocephalus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Thylacinus_cynocephalus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Thylacinus_cynocephalus     from: 1   to: 17411
+# HitCount: 9
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                  
+    683     844       +     142     18      9     99.4 aattaactaaccaaaaac                                                         
+  16523   16747       +     142     75      3     98.2 attacatcaaatatataaagacatttatgtatatagagcattcattccttatacccattcatataagcaagtata
+    362     521       +     104     10     16     85.6 aataaataat                                                                 
+    232     343       +      96     16      7    100.0 acacgtatatgcgtac                                                           
+  16392   16472       +      52      9      9     87.7 ttatttttt                                                                  
+    855     938       +      26     12      7     72.6 aaaaaataaaat                                                               
+  16763   16853       +      20      7     13     64.8 aatatat                                                                    
+  14854   14949       +      20     12      8     66.7 aattccaccacc                                                               
+   2568    2690       +      20     41      3     74.8 aaagctctaattctaatattagtaaattcaactaatttatc                                  
+
+#---------------------------------------
+#---------------------------------------

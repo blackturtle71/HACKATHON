@@ -1,0 +1,37 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:06:12
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Dasypus_pilosus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Dasypus_pilosus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Dasypus_pilosus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Dasypus_pilosus     from: 1   to: 17050
+# HitCount: 7
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  16199   16312       +     106      6     19     99.1 cgcata                                                                          
+  15524   15763       +      84     80      3     84.2 catacatctatctaccccatacatatcactatatactaactattattaatcttacatagcacatcctatgtataatcaca
+  16701   16898       +      72     66      3     84.8 ttttttttttttttttttccagtgaaaaaaagacttaaattcacacatttaaattttatcgtaatt              
+   4490    4663       +      25      3     58     58.0 aat                                                                             
+   4887    4949       +      20     21      3     82.5 ttcattcccctatctccaata                                                           
+  14276   14395       +      20     30      4     70.8 taacagacatctgcctagccatacaatatg                                                  
+  16901   17004       +      20     52      2     84.6 tttttccagtggaaaaacagaactaaagtaatacatagaatctctatagcaa                            
+
+#---------------------------------------
+#---------------------------------------

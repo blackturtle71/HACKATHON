@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:14:01
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Apodemus_agrarius.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Apodemus_agrarius.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Apodemus_agrarius.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Apodemus_agrarius     from: 1   to: 16263
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                       
+  13873   14016       +      22     48      3     74.3 cccaaataaataagagaagccattaaacctaacacaagtcaaccaaac
+
+#---------------------------------------
+#---------------------------------------

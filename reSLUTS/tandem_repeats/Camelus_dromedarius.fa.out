@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:08:45
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Camelus_dromedarius.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Camelus_dromedarius.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Camelus_dromedarius.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Camelus_dromedarius     from: 1   to: 16643
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus       
+  16074   16345       +     150     16     17     80.5 acacgtacgtacacgt
+
+#---------------------------------------
+#---------------------------------------

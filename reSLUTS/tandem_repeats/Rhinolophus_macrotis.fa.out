@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:17
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Rhinolophus_macrotis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Rhinolophus_macrotis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Rhinolophus_macrotis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Rhinolophus_macrotis     from: 1   to: 16848
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus  
+  16308   16505       +     187     11     18    100.0 cgtgtacgcaa
+
+#---------------------------------------
+#---------------------------------------

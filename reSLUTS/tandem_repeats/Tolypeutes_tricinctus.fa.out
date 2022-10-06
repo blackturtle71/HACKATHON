@@ -1,0 +1,34 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:07:09
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Tolypeutes_tricinctus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Tolypeutes_tricinctus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Tolypeutes_tricinctus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Tolypeutes_tricinctus     from: 1   to: 17161
+# HitCount: 4
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  16609   17120       +     448     64      8    100.0 taaaaacactacaaattattttattgatttttttttaataaaaatttccactataaaagtgagg                
+  15537   15776       +      88     80      3     85.0 aatacattctatgtataatcgtacatacatctatctaccccatacatatcataatatactatacattaataatcttacat
+  16304   16369       +      48      6     11     90.9 gcatac                                                                          
+   4720    4974       +      24     51      5     64.7 ctaatattaacaaccatactaacactactaacacccatcataatcatccta                             
+
+#---------------------------------------
+#---------------------------------------

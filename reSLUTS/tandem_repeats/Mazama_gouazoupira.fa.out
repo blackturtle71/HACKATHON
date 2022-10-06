@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:09:51
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Mazama_gouazoupira.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Mazama_gouazoupira.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Mazama_gouazoupira.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Mazama_gouazoupira     from: 1   to: 16355
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,30 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:16:38
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Eubalaena_japonica.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Eubalaena_japonica.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Eubalaena_japonica.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Eubalaena_japonica     from: 1   to: 16386
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

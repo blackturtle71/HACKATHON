@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 12:58:47
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Leptailurus_serval.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Leptailurus_serval.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Leptailurus_serval.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Leptailurus_serval     from: 1   to: 16708
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  16304   16463       +      64     80      2     95.0 actatgtatatcgtgcattaatcgctagtccccatgaatattaagcatgtacagtagtttatatatattacataagacat
+    255     366       +      58     16      7     83.0 atacacacgtacacgt                                                                
+   3535    3669       +      20     45      3     74.1 ctcctacccctcacactcgccctaaccatattcattacagtacct                                   
+
+#---------------------------------------
+#---------------------------------------

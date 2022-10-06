@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:01
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Mystacina_tuberculata.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Mystacina_tuberculata.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Mystacina_tuberculata.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Mystacina_tuberculata     from: 1   to: 16784
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                    
+  16258   16517       +     236     10     26     97.3 cgtgtacgca                                   
+  15602   15671       +      23     35      2     91.4 aatgtattatcgtgcattaatgtattagaacatga          
+   2882    3016       +      20     45      3     74.1 atgccccactcctaccccttacattagccctaacaatatttatta
+
+#---------------------------------------
+#---------------------------------------

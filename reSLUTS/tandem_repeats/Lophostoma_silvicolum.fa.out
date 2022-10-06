@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 12:59:29
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Lophostoma_silvicolum.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Lophostoma_silvicolum.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Lophostoma_silvicolum.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Lophostoma_silvicolum     from: 1   to: 16666
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus   
+  16226   16369       +     122     12     12     96.5 cacgtgtacaca
+  13660   13755       +      20      8     12     64.6 aaaccccc    
+
+#---------------------------------------
+#---------------------------------------

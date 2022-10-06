@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:17:57
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Sorex_tundrensis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Sorex_tundrensis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Sorex_tundrensis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Sorex_tundrensis     from: 1   to: 17444
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                     
+  15755   16222       +     386     78      6     99.6 ggacataatacattttatgtatatcgtacattaaactctaatccacatgcatataagcaagtacatattactataata
+  16803   17138       +     310     14     24     98.2 cgtacgcctataca                                                                
+   2900    3034       +      22     45      3     74.8 cctcctacccctaaccctagccgtcacaatattaattacagtacc                                 
+
+#---------------------------------------
+#---------------------------------------

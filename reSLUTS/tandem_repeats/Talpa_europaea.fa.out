@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:02:10
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Talpa_europaea.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Talpa_europaea.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Talpa_europaea.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Talpa_europaea     from: 1   to: 16884
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                        
+  16197   16516       +     296     16     20     98.8 cacaggcgtatacacc                 
+   9174    9272       +      20     33      3     76.8 agcagctggattttacggaccaccatttattat
+
+#---------------------------------------
+#---------------------------------------

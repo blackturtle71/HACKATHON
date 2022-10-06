@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 12:59:22
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Hippocamelus_antisensis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Hippocamelus_antisensis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Hippocamelus_antisensis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Hippocamelus_antisensis     from: 1   to: 16410
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                     
+  16151   16242       +      26     46      2     89.1 tcaatggtagcaggacataactattacttcacgcttcaaccttaca
+
+#---------------------------------------
+#---------------------------------------

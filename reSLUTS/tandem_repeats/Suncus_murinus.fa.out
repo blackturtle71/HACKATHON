@@ -1,0 +1,35 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:06:59
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Suncus_murinus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Suncus_murinus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Suncus_murinus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Suncus_murinus     from: 1   to: 17240
+# HitCount: 5
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                    
+  16790   17029       +     208     20     12     97.5 gtacgcaagtaggtgtacgc                                                         
+  15772   16156       +     204     77      5     86.5 cccatgcatataagcatgtactatagaataatgtacattatagatataatatgtatatcgtacattactttcttttc
+  15545   15752       +      25     13     16     59.1 aatatataatata                                                                
+   1126    1179       +      24      6      9     77.8 aaacta                                                                       
+  17144   17225       +      20      2     41     63.4 ta                                                                           
+
+#---------------------------------------
+#---------------------------------------

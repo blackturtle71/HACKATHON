@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:10:43
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Apodemus_draco.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Apodemus_draco.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Apodemus_draco.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Apodemus_draco     from: 1   to: 16282
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                    
+  15864   15943       +      36     40      2     97.5 agacggtcataactgtggtctcgcgcagttggtatttttt     
+   2892    3071       +      21     45      4     68.3 cccctaacaatcgccataaaactatgtattctagttcctatacct
+
+#---------------------------------------
+#---------------------------------------

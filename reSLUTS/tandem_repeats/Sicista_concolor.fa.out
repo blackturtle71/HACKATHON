@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:04:27
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Sicista_concolor.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Sicista_concolor.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Sicista_concolor.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Sicista_concolor     from: 1   to: 16492
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus    
+  16001   16234       +     211     13     18     97.9 tacgcatacgttg
+
+#---------------------------------------
+#---------------------------------------

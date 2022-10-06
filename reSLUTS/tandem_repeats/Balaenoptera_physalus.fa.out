@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:02:56
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Balaenoptera_physalus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Balaenoptera_physalus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Balaenoptera_physalus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Balaenoptera_physalus     from: 1   to: 16398
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus 
+  14329   14458       +      20     10     13     61.5 aacaaccaaa
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:12:47
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Episoriculus_fumidus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Episoriculus_fumidus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Episoriculus_fumidus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Episoriculus_fumidus     from: 1   to: 17488
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  15702   16181       +     370     80      6     96.9 tacattctatgtataatgtacattacattatattccccatgcatataagcatggatattcttatctttactatacattta
+  16766   17133       +     336      8     46     96.7 acacgtat                                                                        
+  15597   15640       +      20      2     22     75.0 at                                                                              
+
+#---------------------------------------
+#---------------------------------------

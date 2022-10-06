@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:11:53
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Vicugna_pacos.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Vicugna_pacos.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Vicugna_pacos.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Vicugna_pacos     from: 1   to: 16652
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                     
+  16165   16344       +     140     30      6     97.2 acacacccacgtacacgtacacgtacgcat
+  15541   15592       +      22     26      2     96.2 ataggacatattatgtataatcgtgc    
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:08:41
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Galeopterus_variegatus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Galeopterus_variegatus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Galeopterus_variegatus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Galeopterus_variegatus     from: 1   to: 16748
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                               
+  16186   16345       +     120     40      4    100.0 cacacccgcatacgcatacgcatacgcatacacgcatacc
+
+#---------------------------------------
+#---------------------------------------

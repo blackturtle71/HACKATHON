@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:03:26
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Leopardus_wiedii.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Leopardus_wiedii.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Leopardus_wiedii.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Leopardus_wiedii     from: 1   to: 16704
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+    273     376       +      74      8     13     89.4 tacacgta                                                                        
+  16301   16460       +      70     80      2     96.9 tatgtatatcgtgcattaattgctagtccccatgaatattaagcatgtacagtagtttatatatattacataagacatat
+   3602    3736       +      28     45      3     77.0 aagcaccactcctacccctcacactcgccataaccatattcatca                                   
+
+#---------------------------------------
+#---------------------------------------

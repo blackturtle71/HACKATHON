@@ -1,0 +1,34 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:13:12
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Dasypus_novemcinctus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Dasypus_novemcinctus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Dasypus_novemcinctus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Dasypus_novemcinctus     from: 1   to: 17056
+# HitCount: 4
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                       
+  15532   15771       +     156     80      3     99.2 ttatctaccccatacatatcattatatactaactattattaatcttacatagtacattctatgtataatcacacatacac
+  16699   17018       +     140     64      5     81.9 aaatttttttttatttttttttcactgaaaaatagaattaaattcacacataaaatttttatgg                
+  16279   16416       +     130      6     23     99.3 cgcata                                                                          
+  16614   16682       +      20     23      3     81.2 cactaaaaatagaattaaattta                                                         
+
+#---------------------------------------
+#---------------------------------------

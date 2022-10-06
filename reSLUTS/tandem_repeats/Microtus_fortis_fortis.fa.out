@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:06:25
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Microtus_fortis_fortis.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Microtus_fortis_fortis.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Microtus_fortis_fortis.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Microtus_fortis_fortis     from: 1   to: 16310
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                    
+   2866    3045       +      25     45      4     69.4 ccaccccttgcagttgccctaaacctatgaatcctagtcccctta
+   4811    4864       +      21      3     18     72.2 aac                                          
+   4497    4640       +      20     24      6     65.3 tcaacatactaatattcatatcaa                     
+
+#---------------------------------------
+#---------------------------------------

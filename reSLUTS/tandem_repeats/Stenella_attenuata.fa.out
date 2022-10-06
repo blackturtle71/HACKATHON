@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:01:01
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Stenella_attenuata.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Stenella_attenuata.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Stenella_attenuata.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Stenella_attenuata     from: 1   to: 16386
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                     
+  15557   15740       +      22     46      4     68.5 ttttatatatccaaatatgtatactttgtaatattttacattcact
+
+#---------------------------------------
+#---------------------------------------

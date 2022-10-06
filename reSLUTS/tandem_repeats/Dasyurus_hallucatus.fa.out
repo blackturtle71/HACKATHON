@@ -1,0 +1,34 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:00:05
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Dasyurus_hallucatus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Dasyurus_hallucatus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Dasyurus_hallucatus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Dasyurus_hallucatus     from: 1   to: 17159
+# HitCount: 4
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus 
+  16523   16708       +     132      6     31     87.1 gtgtat    
+  16996   17058       +      50      9      7     96.8 aaattttca 
+  17094   17143       +      34     10      5     94.0 aaaaattttc
+  15508   15647       +      32      4     35     62.9 ttta      
+
+#---------------------------------------
+#---------------------------------------

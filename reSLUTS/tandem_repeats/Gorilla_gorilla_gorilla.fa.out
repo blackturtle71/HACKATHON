@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:06:51
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Gorilla_gorilla_gorilla.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Gorilla_gorilla_gorilla.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Gorilla_gorilla_gorilla.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Gorilla_gorilla_gorilla     from: 1   to: 16412
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+  13750   13845       +      25      3     32     64.6 cac      
+
+#---------------------------------------
+#---------------------------------------

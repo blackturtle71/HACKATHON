@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:05:59
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Ailurus_fulgens_styani.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Ailurus_fulgens_styani.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Ailurus_fulgens_styani.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Ailurus_fulgens_styani     from: 1   to: 16374
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+  15999   16094       +      72      8     12     91.7 atacacgt 
+
+#---------------------------------------
+#---------------------------------------

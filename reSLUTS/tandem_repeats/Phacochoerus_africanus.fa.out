@@ -1,0 +1,33 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:14:16
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Phacochoerus_africanus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Phacochoerus_africanus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Phacochoerus_africanus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Phacochoerus_africanus     from: 1   to: 16719
+# HitCount: 3
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                              
+    702     941       +     222     10     24     98.3 gtgcgtacac                             
+    189     292       +      22     26      4     73.1 tcattattcatattacattgtacata             
+   5774    5929       +      21     39      4     69.2 taaaataaaacaaccataataatatttatattactaata
+
+#---------------------------------------
+#---------------------------------------

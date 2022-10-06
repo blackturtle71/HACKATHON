@@ -1,0 +1,31 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:09:45
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Camelus_bactrianus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Camelus_bactrianus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Camelus_bactrianus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Camelus_bactrianus     from: 1   to: 16659
+# HitCount: 1
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                 
+  16087   16318       +     126     58      4     89.7 tacgtacacgtacacgtacacgtacacgtacacgtacacgtacacgtacacgtacacg
+
+#---------------------------------------
+#---------------------------------------

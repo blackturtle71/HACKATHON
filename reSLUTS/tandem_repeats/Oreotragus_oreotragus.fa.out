@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu  6 Oct 2022 13:05:16
+# Commandline: etandem
+#    -sequence ../raw/separate_seqs/Oreotragus_oreotragus.fa
+#    -maxrepeat 100
+#    -minrepeat 2
+#    -outfile Oreotragus_oreotragus.fa.out
+#    -rdirectory2 ../reSLUTS/tandem_repeats
+# Report_format: table
+# Report_file: ../reSLUTS/tandem_repeats/Oreotragus_oreotragus.fa.out
+########################################
+
+#=======================================
+#
+# Sequence: Oreotragus_oreotragus     from: 1   to: 16526
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                                                  
+  15614   15763       +      27     75      2     84.0 tgggtatgtacatataattaatgtactaaggacataatatgtatatagtacatttcattatctagtacatgaata
+   3248    3427       +      20     36      5     65.6 agaactagtatcattcttcttcacagcagaagaagc                                       
+
+#---------------------------------------
+#---------------------------------------
