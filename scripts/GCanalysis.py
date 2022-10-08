@@ -36,5 +36,5 @@ a = GCanalysis['GC'].to_numpy()
 b = GCanalysis['Transposon GC'].to_numpy()
 
 print(stats.ttest_ind(a=a, b=b, equal_var=False))
-
+#Ttest_indResult(statistic=-5.156627569601541, pvalue=2.2937580795757305e-06)
 
